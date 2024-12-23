@@ -1,0 +1,95 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "35a505e9-3f77-481c-8e84-0e599671b6d4")
+	(paper "A4")
+	(title_block
+		(title "ModuCard base module")
+		(date "2024-12-23")
+		(rev "1.0.0")
+		(company "KoNaR")
+		(comment 1 "Designer: Dominik Pluta")
+	)
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 152.4 113.03) (xy 160.02 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36db5b50-0184-4ebc-b4e7-652acb015db1")
+	)
+	(bus
+		(pts
+			(xy 152.4 110.49) (xy 160.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abdc9742-94bf-4be6-8dcc-bfd9b342e56d")
+	)
+	(hierarchical_label "NRST"
+		(shape input)
+		(at 152.4 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41a43b26-70b4-47af-9ee3-f1762a7a81a6")
+	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 152.4 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87a3150e-afbf-4dae-9a37-a56146fdcbf5")
+	)
+	(hierarchical_label "SWDIO"
+		(shape bidirectional)
+		(at 152.4 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b5b0aed-9743-4fa8-b819-8e67fb2cb34f")
+	)
+	(hierarchical_label "CAN{CAN2}"
+		(shape input)
+		(at 152.4 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca279101-cb31-410b-8a0d-8e0ca3273f58")
+	)
+	(hierarchical_label "CAN{CAN1}"
+		(shape input)
+		(at 152.4 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc2ec4d9-14d6-42cb-acb3-1d4554d5c551")
+	)
+)

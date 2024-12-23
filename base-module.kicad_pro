@@ -576,6 +576,22 @@
     [
       "090a8e41-87a8-4fb1-998b-60a2c0dc4cee",
       "Root"
+    ],
+    [
+      "ff3476d7-2f10-4f79-9864-988601c7ce1b",
+      "Backplane"
+    ],
+    [
+      "3f372eb1-53a4-4b00-8846-6751dd401eeb",
+      "Power"
+    ],
+    [
+      "ae074854-c02c-496b-964f-ecb8956e53f8",
+      "MCU"
+    ],
+    [
+      "ed5910e5-42de-4923-b023-9e23a66937d0",
+      "ST-LINK"
     ]
   ],
   "text_variables": {}
