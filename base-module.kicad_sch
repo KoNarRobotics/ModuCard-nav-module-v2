@@ -9,7 +9,8 @@
 		(date "2024-12-23")
 		(rev "1.0.0")
 		(company "KoNaR")
-		(comment 1 "Designer: Dominik Pluta")
+		(comment 1 "Base project author: Dominik Pluta")
+		(comment 2 "Project author: <author>")
 	)
 	(lib_symbols)
 	(bus_alias "CAN1"
