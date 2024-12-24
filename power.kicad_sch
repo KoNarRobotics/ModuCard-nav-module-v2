@@ -1,0 +1,16 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ba51c50f-f60f-4e62-bc07-1f5c7036722d")
+	(paper "A4")
+	(title_block
+		(title "ModuCard base module")
+		(date "2024-12-23")
+		(rev "1.0.0")
+		(company "KoNaR")
+		(comment 1 "Base project author: Dominik Pluta")
+		(comment 2 "Project author: <author>")
+	)
+	(lib_symbols)
+)

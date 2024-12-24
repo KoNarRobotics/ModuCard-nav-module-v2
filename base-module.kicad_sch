@@ -9,9 +9,381 @@
 		(date "2024-12-23")
 		(rev "1.0.0")
 		(company "KoNaR")
-		(comment 1 "Designer: Dominik Pluta")
+		(comment 1 "Base project author: Dominik Pluta")
+		(comment 2 "Project author: <author>")
 	)
 	(lib_symbols)
+	(bus_alias "CAN1"
+		(members "1+" "1-")
+	)
+	(bus_alias "CAN2"
+		(members "2+" "2-")
+	)
+	(bus_alias "ST-LINK"
+		(members "D+" "D-")
+	)
+	(wire
+		(pts
+			(xy 165.1 81.28) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80cabf84-d812-47c9-aa3c-ecc5ed17e9c9")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9004fe89-21d6-412e-aaf0-971861cd77bb")
+	)
+	(wire
+		(pts
+			(xy 165.1 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f8d972-04dc-42d9-b2f4-a6356b8dd1e6")
+	)
+	(bus
+		(pts
+			(xy 127 93.98) (xy 177.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2cb46fd-f08e-410c-b6d9-9f0050eff1f2")
+	)
+	(bus
+		(pts
+			(xy 127 91.44) (xy 177.8 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfda967e-b864-4ed9-bd9c-55c91c99ab83")
+	)
+	(bus
+		(pts
+			(xy 127 83.82) (xy 139.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19bf298-d6bb-470d-9503-1314e8f4eeff")
+	)
+	(sheet
+		(at 101.6 50.8)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f372eb1-53a4-4b00-8846-6751dd401eeb")
+		(property "Sheetname" "Power"
+			(at 101.6 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 101.6 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 76.2)
+		(size 25.4 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ae074854-c02c-496b-964f-ecb8956e53f8")
+		(property "Sheetname" "MCU"
+			(at 177.8 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 177.8 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWCLK" input
+			(at 177.8 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f466f4aa-8dc5-4405-b497-c260b3ae9ba7")
+		)
+		(pin "SWDIO" bidirectional
+			(at 177.8 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a513560d-1d45-4fff-ae45-10644ee8823a")
+		)
+		(pin "NRST" input
+			(at 177.8 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e855ab60-70c7-4148-95d3-e4fb456b53bc")
+		)
+		(pin "CAN{CAN2}" input
+			(at 177.8 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "79686f92-0206-41fc-86fb-d6a823bde5df")
+		)
+		(pin "CAN{CAN1}" input
+			(at 177.8 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "38c91eb6-8efd-4dec-978c-811da910d4a6")
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 76.2)
+		(size 25.4 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed5910e5-42de-4923-b023-9e23a66937d0")
+		(property "Sheetname" "ST-LINK"
+			(at 139.7 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "st-link.kicad_sch"
+			(at 139.7 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2d3a07f1-a0da-4995-a1a7-c716b40bb0a7")
+		)
+		(pin "SWCLK" input
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "15ad81de-7820-4ab2-a948-449c9d36e812")
+		)
+		(pin "NRST" output
+			(at 165.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "796f7663-2362-4a0b-a544-43d0d7e868f2")
+		)
+		(pin "USB{ST-LINK}" input
+			(at 139.7 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1f8bebf7-2c7a-401d-bf5b-ddb1b2e1fa68")
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 76.2)
+		(size 25.4 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff3476d7-2f10-4f79-9864-988601c7ce1b")
+		(property "Sheetname" "Backplane"
+			(at 101.6 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "backplane.kicad_sch"
+			(at 101.6 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIOC[0..15]" input
+			(at 127 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "590059fb-ce6b-4594-a8d9-5ea16c12e994")
+		)
+		(pin "GPIOL[0..15]" input
+			(at 127 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1244bff8-cc00-45c3-ad70-38099735e42f")
+		)
+		(pin "GPIOR[0..15]" input
+			(at 127 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78f6447e-cc35-4bff-9181-e28e763cd973")
+		)
+		(pin "USB{ST-LINK}" input
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8af60e00-707e-41fb-b3a6-9e7df57283ff")
+		)
+		(pin "CAN{CAN2}" input
+			(at 127 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "24c9a3db-9813-4e53-8a53-5c4de532bdc0")
+		)
+		(pin "CAN{CAN1}" input
+			(at 127 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "384a0c46-6585-4784-8e5e-f4f98e4b7960")
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
