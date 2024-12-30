@@ -477,6 +477,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -593,6 +594,14 @@
     [
       "ed5910e5-42de-4923-b023-9e23a66937d0",
       "ST-LINK"
+    ],
+    [
+      "7ee3192a-2c17-43bb-b41c-3a68ad8e606c",
+      "CAN transceiver 1"
+    ],
+    [
+      "9aa56239-1a3a-4aac-8799-c057bacf336d",
+      "CAN transceiver 2"
     ]
   ],
   "text_variables": {}
