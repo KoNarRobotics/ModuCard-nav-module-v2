@@ -13,29 +13,169 @@
 		(comment 2 "Project author: <author>")
 	)
 	(lib_symbols)
-	(bus
-		(pts
-			(xy 152.4 113.03) (xy 160.02 113.03)
-		)
+	(bus_entry
+		(at 256.54 97.79)
+		(size -2.54 -2.54)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36db5b50-0184-4ebc-b4e7-652acb015db1")
+		(uuid "206ffaa8-b1c5-494b-9db0-ea6302eacb44")
+	)
+	(bus_entry
+		(at 256.54 100.33)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e580ab-c6c6-4e36-b0fe-11b2a6fef112")
+	)
+	(bus_entry
+		(at 256.54 81.28)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9972ec53-3e05-4c2c-802d-37bd0688b954")
+	)
+	(bus_entry
+		(at 256.54 83.82)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af40cec7-8fc0-434d-9ec9-2b3d4590290d")
 	)
 	(bus
 		(pts
-			(xy 152.4 110.49) (xy 160.02 110.49)
+			(xy 256.54 81.28) (xy 256.54 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abdc9742-94bf-4be6-8dcc-bfd9b342e56d")
+		(uuid "3f0c2037-afe4-4585-844a-86f04f373d97")
+	)
+	(wire
+		(pts
+			(xy 247.65 97.79) (xy 254 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2eee30-360d-4b43-bef1-cd17e40e747e")
+	)
+	(wire
+		(pts
+			(xy 247.65 81.28) (xy 254 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7012a8c4-2a9a-43ae-bff0-482a9d26e397")
+	)
+	(wire
+		(pts
+			(xy 254 78.74) (xy 247.65 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a87fa7-aa1a-4edf-b794-226114fd8bbe")
+	)
+	(bus
+		(pts
+			(xy 256.54 100.33) (xy 260.35 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcea4612-9604-4b74-b192-d02019843c9f")
+	)
+	(bus
+		(pts
+			(xy 256.54 97.79) (xy 256.54 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4fac18-279b-47e1-a4e7-41fd62e24f6c")
+	)
+	(bus
+		(pts
+			(xy 256.54 83.82) (xy 260.35 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ad0860-2106-4208-b64f-dc79d2254dcd")
+	)
+	(wire
+		(pts
+			(xy 254 95.25) (xy 247.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70e34b9-05fa-40ee-b1b2-ab28e876e237")
+	)
+	(label "CAN.1+"
+		(at 247.65 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e2d1794-200e-49f9-9efa-c03bd525449c")
+	)
+	(label "CAN.2-"
+		(at 247.65 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98fff7b3-6ba2-4e8d-9035-8e9220cfc4b7")
+	)
+	(label "CAN.2+"
+		(at 247.65 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bab9062c-816e-45d0-a908-5377e596e58a")
+	)
+	(label "CAN.1-"
+		(at 247.65 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdedadf8-b38e-41ca-99dc-b5dd83864944")
 	)
 	(hierarchical_label "NRST"
 		(shape input)
-		(at 152.4 101.6 180)
+		(at 266.7 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -47,7 +187,7 @@
 	)
 	(hierarchical_label "SWCLK"
 		(shape input)
-		(at 152.4 96.52 180)
+		(at 266.7 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -59,7 +199,7 @@
 	)
 	(hierarchical_label "SWDIO"
 		(shape bidirectional)
-		(at 152.4 99.06 180)
+		(at 266.7 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -69,28 +209,182 @@
 		)
 		(uuid "8b5b0aed-9743-4fa8-b819-8e67fb2cb34f")
 	)
-	(hierarchical_label "CAN{CAN2}"
-		(shape input)
-		(at 152.4 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ca279101-cb31-410b-8a0d-8e0ca3273f58")
-	)
 	(hierarchical_label "CAN{CAN1}"
 		(shape input)
-		(at 152.4 110.49 180)
+		(at 260.35 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "cc2ec4d9-14d6-42cb-acb3-1d4554d5c551")
+		(uuid "cde3e8fb-bcf9-4304-9282-2f629055c1c2")
+	)
+	(hierarchical_label "CAN{CAN2}"
+		(shape input)
+		(at 260.35 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fac3a655-3781-4bde-9819-51a01dd03f9a")
+	)
+	(sheet
+		(at 229.87 76.2)
+		(size 17.78 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ee3192a-2c17-43bb-b41c-3a68ad8e606c")
+		(property "Sheetname" "CAN transceiver 1"
+			(at 229.87 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can-transceiver.kicad_sch"
+			(at 223.52 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN-" bidirectional
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "17d9aaf3-d79e-4940-97c9-cbbaef99e135")
+		)
+		(pin "RX" input
+			(at 229.87 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0650bd3c-22c0-472a-b913-b4e337ae53b8")
+		)
+		(pin "CAN+" bidirectional
+			(at 247.65 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "85e9f749-5cb7-47bc-ba8c-19d5287d342d")
+		)
+		(pin "TX" output
+			(at 229.87 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "42aea2fd-65fb-467c-9f41-39b78e8a658c")
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 229.87 92.71)
+		(size 17.78 7.62)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9aa56239-1a3a-4aac-8799-c057bacf336d")
+		(property "Sheetname" "CAN transceiver 2"
+			(at 229.87 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can-transceiver.kicad_sch"
+			(at 223.52 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN-" bidirectional
+			(at 247.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1d7b7891-0f17-4c84-b36d-0231cc6f1363")
+		)
+		(pin "RX" input
+			(at 229.87 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e157a4f5-75b6-4861-a408-dc3aa17520f7")
+		)
+		(pin "CAN+" bidirectional
+			(at 247.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b1dd1b23-3fa0-4c03-a16e-01dd21ff9416")
+		)
+		(pin "TX" output
+			(at 229.87 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "10205027-f3a9-483d-b3ab-041dc06af307")
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8"
+					(page "7")
+				)
+			)
+		)
 	)
 )
