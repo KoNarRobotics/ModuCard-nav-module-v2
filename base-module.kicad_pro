@@ -476,7 +476,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 400,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -592,17 +592,23 @@
       "MCU"
     ],
     [
-      "ed5910e5-42de-4923-b023-9e23a66937d0",
-      "ST-LINK"
-    ],
-    [
       "7ee3192a-2c17-43bb-b41c-3a68ad8e606c",
       "CAN transceiver 1"
     ],
     [
       "9aa56239-1a3a-4aac-8799-c057bacf336d",
       "CAN transceiver 2"
+    ],
+    [
+      "ed5910e5-42de-4923-b023-9e23a66937d0",
+      "ST-LINK"
+    ],
+    [
+      "8fd5ae83-0658-4178-9e81-18085647e2bb",
+      "USB"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "SHEETTOTAL": "5"
+  }
 }

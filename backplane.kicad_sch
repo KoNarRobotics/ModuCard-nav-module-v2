@@ -12,9 +12,661 @@
 		(comment 1 "Base project authors: Dominik Pluta, Artem Horiunov")
 		(comment 2 "Project author: <author>")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Power_Protection:IP4234CZ6"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "IP4234CZ6"
+				(at 2.794 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SC-74-6_1.55x2.9mm_P0.95mm"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/IP4234CZ6.pdf"
+				(at 0 -20.066 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Protection, 2 channel, USB 2.0 to IEC 61000-4-2 level 4, 5.5V, SOT457 (SC-74-6)"
+				(at 0 -18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "USB ESD protection "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SC?74?6*P0.95mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IP4234CZ6_0_0"
+				(rectangle
+					(start -5.842 6.35)
+					(end 5.842 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -6.35) (xy -1.778 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 6.35) (xy 1.778 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IP4234CZ6_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -5.842 -2.54)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 -6.35)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 -2.54)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.778 6.35)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -6.35)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -4.826 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy 2.794 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.334 -4.064) (xy -6.35 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.334 5.08) (xy -6.35 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -4.064) (xy -2.286 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.286 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy -0.508 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy -0.508 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -4.064) (xy 1.27 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -4.064) (xy 5.334 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 5.08) (xy 5.334 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy -2.794 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 4.826 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 6.35)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.778 -6.35)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.778 2.54)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.778 6.35)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 5.842 2.54)
+					(radius 0.2794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "IP4234CZ6_1_1"
+				(rectangle
+					(start -4.826 -2.032)
+					(end -2.794 -3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.334 -5.08) (xy -6.35 -5.08) (xy -5.842 -4.064) (xy -5.334 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.334 4.064) (xy -6.35 4.064) (xy -5.842 5.08) (xy -5.334 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.286 -5.08) (xy -1.778 -4.064) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.064) (xy -2.286 4.064) (xy -1.778 5.08) (xy -1.27 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -0.508) (xy -0.508 -0.508) (xy 0 0.508) (xy 0.508 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -5.08) (xy 1.27 -5.08) (xy 1.778 -4.064) (xy 2.286 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 4.064) (xy 1.27 4.064) (xy 1.778 5.08) (xy 2.286 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -5.08) (xy 5.334 -5.08) (xy 5.842 -4.064) (xy 6.35 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 4.064) (xy 5.334 4.064) (xy 5.842 5.08) (xy 6.35 4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.794 3.048)
+					(end 4.826 2.032)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "VN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
 	(bus_entry
-		(at 236.22 137.16)
+		(at 229.87 138.43)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -221,7 +873,7 @@
 		(uuid "602afa08-a329-4e41-95fc-cecdc8e82fc5")
 	)
 	(bus_entry
-		(at 236.22 139.7)
+		(at 229.87 143.51)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -671,7 +1323,7 @@
 	)
 	(bus
 		(pts
-			(xy 238.76 142.24) (xy 238.76 148.59)
+			(xy 232.41 149.86) (xy 232.41 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1141,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 137.16) (xy 236.22 137.16)
+			(xy 208.28 138.43) (xy 229.87 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1198,6 +1850,16 @@
 			(type default)
 		)
 		(uuid "9d32138f-bb1a-4df0-9bed-91a1f1bccf8a")
+	)
+	(wire
+		(pts
+			(xy 182.88 138.43) (xy 187.96 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9e8005-6930-42b1-a2c8-260109bbf1c7")
 	)
 	(bus
 		(pts
@@ -1281,7 +1943,7 @@
 	)
 	(bus
 		(pts
-			(xy 238.76 139.7) (xy 238.76 142.24)
+			(xy 232.41 140.97) (xy 232.41 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1359,6 +2021,16 @@
 		)
 		(uuid "ca6ff1d9-521b-4af5-a895-fb36f3e3c10b")
 	)
+	(wire
+		(pts
+			(xy 182.88 143.51) (xy 187.96 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3c2f90-358e-400a-a7f1-3e875cbabb2a")
+	)
 	(bus
 		(pts
 			(xy 43.18 106.68) (xy 43.18 109.22)
@@ -1371,7 +2043,7 @@
 	)
 	(bus
 		(pts
-			(xy 238.76 148.59) (xy 252.73 148.59)
+			(xy 232.41 149.86) (xy 243.84 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1401,7 +2073,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 139.7) (xy 236.22 139.7)
+			(xy 208.28 143.51) (xy 229.87 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1640,7 +2312,7 @@
 		(uuid "fefce136-2f32-472b-a1aa-3672be495a0c")
 	)
 	(rectangle
-		(start 210.185 124.46)
+		(start 170.18 124.46)
 		(end 270.51 153.67)
 		(stroke
 			(width 0)
@@ -1653,7 +2325,7 @@
 	)
 	(text "USB\n"
 		(exclude_from_sim no)
-		(at 216.154 130.556 0)
+		(at 263.906 129.032 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -1793,6 +2465,18 @@
 		)
 		(uuid "33698d04-edc6-4b56-bfb1-cb539514fe2b")
 	)
+	(label "USB1U.D-"
+		(at 222.25 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "361e89e2-f9f4-477b-bc69-c81771429bef")
+	)
 	(label "CAN.1+"
 		(at 242.57 101.6 180)
 		(fields_autoplaced yes)
@@ -1860,6 +2544,18 @@
 		)
 		(uuid "5c3ecd29-182e-4aa6-a84e-25e8d596ef78")
 	)
+	(label "USB1U.D+"
+		(at 182.88 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "5eccf714-e2ac-45ee-967a-1061c675e9d0")
+	)
 	(label "GPIOR7"
 		(at 77.47 46.99 0)
 		(fields_autoplaced yes)
@@ -1914,6 +2610,18 @@
 			(justify left bottom)
 		)
 		(uuid "6f463a3c-8bc3-4c98-8dee-e02f00cab46e")
+	)
+	(label "USB1U.D-"
+		(at 182.88 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "779c31c7-d88a-42a6-beeb-c70e07e3b510")
 	)
 	(label "GPIOL15"
 		(at 57.15 121.92 0)
@@ -2004,18 +2712,6 @@
 		)
 		(uuid "97fc4499-5447-454f-8d32-7666c92f08e9")
 	)
-	(label "USB.D-"
-		(at 222.25 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "99bf6118-b00b-4f11-a3b7-84dbd3b0d08f")
-	)
 	(label "GPIOC2"
 		(at 57.15 144.78 0)
 		(fields_autoplaced yes)
@@ -2071,8 +2767,8 @@
 		)
 		(uuid "9c9ff7ad-aa77-4205-b4fc-dc1f5c26eea5")
 	)
-	(label "USB.D+"
-		(at 222.25 137.16 180)
+	(label "USB1U.D+"
+		(at 222.25 138.43 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2081,7 +2777,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a0be6957-9936-4768-a8b4-de1fe23c8f31")
+		(uuid "a71516c9-25a7-4b1a-acd8-8d7f58700ebf")
 	)
 	(label "GPIOC5"
 		(at 57.15 152.4 0)
@@ -2312,7 +3008,7 @@
 	)
 	(hierarchical_label "USB{ST-LINK}"
 		(shape input)
-		(at 252.73 148.59 0)
+		(at 243.84 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2333,5 +3029,86 @@
 			(justify right)
 		)
 		(uuid "e2d94c13-b853-4640-926b-010226738075")
+	)
+	(symbol
+		(lib_id "Power_Protection:IP4234CZ6")
+		(at 198.12 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25618da9-1100-45d9-a9a0-423dec9508a9")
+		(property "Reference" "U403"
+			(at 201.93 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IP4234CZ6,115"
+			(at 201.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SC-74-6_1.55x2.9mm_P0.95mm"
+			(at 198.12 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/IP4234CZ6.pdf"
+			(at 198.12 161.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection, 2 channel, USB 2.0 to IEC 61000-4-2 level 4, 5.5V, SOT457 (SC-74-6)"
+			(at 198.12 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c7402b53-8042-45ef-a4f9-f8fb4e6983d8")
+		)
+		(pin "4"
+			(uuid "609425a8-7646-4048-aa3c-0165a88b7d8e")
+		)
+		(pin "5"
+			(uuid "8a6e1873-cde0-4cf6-ad9c-8d830c320a25")
+		)
+		(pin "1"
+			(uuid "eb1efa5a-9419-419c-83f3-e031568cf98b")
+		)
+		(pin "6"
+			(uuid "c18f2caf-e0e4-4db3-820a-7795e2c286c4")
+		)
+		(pin "2"
+			(uuid "cee92d6d-e61c-4ca4-8f5a-17b06d0aa120")
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ff3476d7-2f10-4f79-9864-988601c7ce1b"
+					(reference "U403")
+					(unit 1)
+				)
+			)
+		)
 	)
 )

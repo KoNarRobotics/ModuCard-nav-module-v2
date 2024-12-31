@@ -24,7 +24,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 81.28) (xy 177.8 81.28)
+			(xy 88.9 59.69) (xy 101.6 59.69)
 		)
 		(stroke
 			(width 0)
@@ -34,7 +34,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 83.82) (xy 177.8 83.82)
+			(xy 88.9 62.23) (xy 101.6 62.23)
 		)
 		(stroke
 			(width 0)
@@ -44,7 +44,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 78.74) (xy 177.8 78.74)
+			(xy 88.9 57.15) (xy 101.6 57.15)
 		)
 		(stroke
 			(width 0)
@@ -54,7 +54,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 93.98) (xy 177.8 93.98)
+			(xy 50.8 72.39) (xy 101.6 72.39)
 		)
 		(stroke
 			(width 0)
@@ -64,7 +64,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 91.44) (xy 177.8 91.44)
+			(xy 50.8 69.85) (xy 101.6 69.85)
 		)
 		(stroke
 			(width 0)
@@ -74,7 +74,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 83.82) (xy 139.7 83.82)
+			(xy 50.8 62.23) (xy 63.5 62.23)
 		)
 		(stroke
 			(width 0)
@@ -83,7 +83,7 @@
 		(uuid "c19bf298-d6bb-470d-9503-1314e8f4eeff")
 	)
 	(sheet
-		(at 101.6 50.8)
+		(at 25.4 29.21)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -95,7 +95,7 @@
 		)
 		(uuid "3f372eb1-53a4-4b00-8846-6751dd401eeb")
 		(property "Sheetname" "Power"
-			(at 101.6 50.0884 0)
+			(at 25.4 28.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -104,7 +104,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 101.6 64.0846 0)
+			(at 25.4 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121,8 +121,46 @@
 		)
 	)
 	(sheet
-		(at 177.8 76.2)
-		(size 25.4 38.1)
+		(at 63.5 29.21)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8fd5ae83-0658-4178-9e81-18085647e2bb")
+		(property "Sheetname" "USB"
+			(at 63.5 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 63.5 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 54.61)
+		(size 44.45 54.61)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -133,7 +171,7 @@
 		)
 		(uuid "ae074854-c02c-496b-964f-ecb8956e53f8")
 		(property "Sheetname" "MCU"
-			(at 177.8 75.4884 0)
+			(at 101.6 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -142,7 +180,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 177.8 114.8846 0)
+			(at 101.6 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -151,7 +189,7 @@
 			)
 		)
 		(pin "SWCLK" input
-			(at 177.8 81.28 180)
+			(at 101.6 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,7 +199,7 @@
 			(uuid "f466f4aa-8dc5-4405-b497-c260b3ae9ba7")
 		)
 		(pin "SWDIO" bidirectional
-			(at 177.8 78.74 180)
+			(at 101.6 57.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -171,7 +209,7 @@
 			(uuid "a513560d-1d45-4fff-ae45-10644ee8823a")
 		)
 		(pin "NRST" input
-			(at 177.8 83.82 180)
+			(at 101.6 62.23 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -181,7 +219,7 @@
 			(uuid "e855ab60-70c7-4148-95d3-e4fb456b53bc")
 		)
 		(pin "CAN{CAN2}" input
-			(at 177.8 93.98 180)
+			(at 101.6 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -191,7 +229,7 @@
 			(uuid "79686f92-0206-41fc-86fb-d6a823bde5df")
 		)
 		(pin "CAN{CAN1}" input
-			(at 177.8 91.44 180)
+			(at 101.6 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -209,7 +247,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 76.2)
+		(at 63.5 54.61)
 		(size 25.4 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -221,7 +259,7 @@
 		)
 		(uuid "ed5910e5-42de-4923-b023-9e23a66937d0")
 		(property "Sheetname" "ST-LINK"
-			(at 139.7 75.4884 0)
+			(at 63.5 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -230,7 +268,7 @@
 			)
 		)
 		(property "Sheetfile" "st-link.kicad_sch"
-			(at 139.7 86.9446 0)
+			(at 63.5 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -239,7 +277,7 @@
 			)
 		)
 		(pin "SWDIO" bidirectional
-			(at 165.1 78.74 0)
+			(at 88.9 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -249,7 +287,7 @@
 			(uuid "2d3a07f1-a0da-4995-a1a7-c716b40bb0a7")
 		)
 		(pin "SWCLK" input
-			(at 165.1 81.28 0)
+			(at 88.9 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -259,7 +297,7 @@
 			(uuid "15ad81de-7820-4ab2-a948-449c9d36e812")
 		)
 		(pin "NRST" output
-			(at 165.1 83.82 0)
+			(at 88.9 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -269,7 +307,7 @@
 			(uuid "796f7663-2362-4a0b-a544-43d0d7e868f2")
 		)
 		(pin "USB{ST-LINK}" input
-			(at 139.7 83.82 180)
+			(at 63.5 62.23 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -281,13 +319,13 @@
 		(instances
 			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
-					(page "5")
+					(page "7")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 101.6 76.2)
+		(at 25.4 54.61)
 		(size 25.4 38.1)
 		(fields_autoplaced yes)
 		(stroke
@@ -299,7 +337,7 @@
 		)
 		(uuid "ff3476d7-2f10-4f79-9864-988601c7ce1b")
 		(property "Sheetname" "Backplane"
-			(at 101.6 75.4884 0)
+			(at 25.4 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -308,7 +346,7 @@
 			)
 		)
 		(property "Sheetfile" "backplane.kicad_sch"
-			(at 101.6 114.8846 0)
+			(at 25.4 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -317,7 +355,7 @@
 			)
 		)
 		(pin "GPIOC[0..15]" input
-			(at 127 100.33 0)
+			(at 50.8 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -327,7 +365,7 @@
 			(uuid "590059fb-ce6b-4594-a8d9-5ea16c12e994")
 		)
 		(pin "GPIOL[0..15]" input
-			(at 127 102.87 0)
+			(at 50.8 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -337,7 +375,7 @@
 			(uuid "1244bff8-cc00-45c3-ad70-38099735e42f")
 		)
 		(pin "GPIOR[0..15]" input
-			(at 127 97.79 0)
+			(at 50.8 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -347,7 +385,7 @@
 			(uuid "78f6447e-cc35-4bff-9181-e28e763cd973")
 		)
 		(pin "USB{ST-LINK}" input
-			(at 127 83.82 0)
+			(at 50.8 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -357,7 +395,7 @@
 			(uuid "8af60e00-707e-41fb-b3a6-9e7df57283ff")
 		)
 		(pin "CAN{CAN2}" input
-			(at 127 93.98 0)
+			(at 50.8 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -367,7 +405,7 @@
 			(uuid "24c9a3db-9813-4e53-8a53-5c4de532bdc0")
 		)
 		(pin "CAN{CAN1}" input
-			(at 127 91.44 0)
+			(at 50.8 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)

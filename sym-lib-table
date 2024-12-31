@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "TJA1044GTK_3Z")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-symbols/TJA1044GTK_3Z.kicad_sym")(options "")(descr ""))
+  (lib (name "base-module-altium-import")(type "KiCad")(uri "${KIPRJMOD}/base-module-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "ESD204DQAR")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-symbols/ESD204DQAR.kicad_sym")(options "")(descr ""))
 )
