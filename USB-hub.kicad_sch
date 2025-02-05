@@ -1459,16 +1459,6 @@
 		)
 		(uuid "33de79e4-8492-4987-aaa9-a844a402952e")
 	)
-	(bus
-		(pts
-			(xy 62.23 91.44) (xy 62.23 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34876066-9349-499b-bdf1-0aeffe9c3759")
-	)
 	(wire
 		(pts
 			(xy 154.94 68.58) (xy 165.1 68.58)
@@ -1768,16 +1758,6 @@
 			(type default)
 		)
 		(uuid "c777e9c2-7426-400b-9257-699ecf36a081")
-	)
-	(bus
-		(pts
-			(xy 67.31 86.36) (xy 67.31 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce500831-cdbd-4df2-b14d-b43c52462938")
 	)
 	(wire
 		(pts

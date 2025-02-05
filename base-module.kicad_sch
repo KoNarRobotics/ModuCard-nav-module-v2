@@ -358,7 +358,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "c4e62f69-aed8-45c4-bc74-414bd9b2dcad")
-		(property "Sheetname" "USBhub"
+		(property "Sheetname" "USB-hub"
 			(at 110.49 51.3584 0)
 			(effects
 				(font
@@ -367,7 +367,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "USBhub.kicad_sch"
+		(property "Sheetfile" "USB-hub.kicad_sch"
 			(at 110.49 69.1646 0)
 			(effects
 				(font
