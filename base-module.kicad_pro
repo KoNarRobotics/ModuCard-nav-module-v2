@@ -606,6 +606,10 @@
     [
       "8fd5ae83-0658-4178-9e81-18085647e2bb",
       "USB"
+    ],
+    [
+      "c4e62f69-aed8-45c4-bc74-414bd9b2dcad",
+      "USBhub"
     ]
   ],
   "text_variables": {
