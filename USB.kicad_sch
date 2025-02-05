@@ -5,8 +5,10 @@
 	(uuid "04342a8d-f86c-4346-a681-0169f3eda66b")
 	(paper "A4")
 	(title_block
-		(title "USB type C")
-		(company "ModuCard System")
+		(title "ModuCard base module")
+		(date "2024-12-23")
+		(rev "1.0.0")
+		(company "KoNaR")
 		(comment 1 "Base project authors: Dominik Pluta, Artem Horiunov")
 		(comment 2 "Project author: <author>")
 	)
@@ -3668,7 +3670,7 @@
 			(uuid "33c0aa0a-b891-4ad2-9423-411ffeb15bbb")
 		)
 		(instances
-			(project ""
+			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
 					(reference "U402")
 					(unit 1)
@@ -3828,7 +3830,7 @@
 			(uuid "4a76ead3-c9a4-4bf6-a629-470f9aad25c2")
 		)
 		(instances
-			(project ""
+			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
 					(reference "U405")
 					(unit 1)
@@ -4093,7 +4095,7 @@
 			(uuid "193f9b6a-f44c-4821-849d-079293c54ccb")
 		)
 		(instances
-			(project ""
+			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
 					(reference "#PWR0428")
 					(unit 1)
@@ -4228,7 +4230,7 @@
 			(uuid "ba03f0d7-8002-44db-878e-bc144764c035")
 		)
 		(instances
-			(project ""
+			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
 					(reference "#PWR0425")
 					(unit 1)
@@ -4363,7 +4365,7 @@
 			(uuid "23bfbecc-4b5b-4a8e-820a-9127e65be282")
 		)
 		(instances
-			(project ""
+			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
 					(reference "C416")
 					(unit 1)
@@ -4632,7 +4634,7 @@
 			(uuid "1852b0cd-bc39-47c7-a1c7-490323b75d29")
 		)
 		(instances
-			(project ""
+			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
 					(reference "R410")
 					(unit 1)
@@ -4779,7 +4781,7 @@
 			(uuid "7bb82f7c-a802-4945-920b-78ada65975ef")
 		)
 		(instances
-			(project ""
+			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
 					(reference "U404")
 					(unit 1)
@@ -4985,7 +4987,7 @@
 			(uuid "d22bc3e0-d41d-4a4c-a41d-3303cdbb7a4c")
 		)
 		(instances
-			(project ""
+			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
 					(reference "#PWR0434")
 					(unit 1)
@@ -5098,7 +5100,7 @@
 			(uuid "dbc1d5d5-e238-4c50-bb9a-ef8a4d2cf0c8")
 		)
 		(instances
-			(project ""
+			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
 					(reference "J401")
 					(unit 1)
@@ -5234,7 +5236,7 @@
 			(uuid "af06964d-ee59-46f4-91f9-d40373549183")
 		)
 		(instances
-			(project ""
+			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
 					(reference "R413")
 					(unit 1)
@@ -5374,7 +5376,7 @@
 			(uuid "614c103e-117b-4470-a1f2-c497e8378657")
 		)
 		(instances
-			(project ""
+			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
 					(reference "R411")
 					(unit 1)
@@ -5644,7 +5646,7 @@
 			(uuid "a7f7d8df-6fd7-422a-b5ae-5fff23280648")
 		)
 		(instances
-			(project ""
+			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
 					(reference "#PWR0437")
 					(unit 1)

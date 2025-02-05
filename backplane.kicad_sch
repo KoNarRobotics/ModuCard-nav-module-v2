@@ -3289,7 +3289,7 @@
 			(uuid "3140409a-0bb9-4b25-bca4-6d8def468a94")
 		)
 		(instances
-			(project ""
+			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ff3476d7-2f10-4f79-9864-988601c7ce1b"
 					(reference "#PWR0427")
 					(unit 1)
