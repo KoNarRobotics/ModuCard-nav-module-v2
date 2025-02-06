@@ -5838,7 +5838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 74.93 40.64 0)
 			(effects
 				(font
@@ -6646,7 +6646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 209.55 40.64 0)
 			(effects
 				(font
@@ -9426,7 +9426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_0402"
 			(at 149.86 45.72 0)
 			(effects
 				(font
@@ -9495,7 +9495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 175.26 93.98 0)
 			(effects
 				(font
@@ -10046,7 +10046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 74.93 93.98 0)
 			(effects
 				(font
@@ -10387,7 +10387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 179.07 41.91 0)
 			(effects
 				(font
@@ -11731,7 +11731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 162.56 93.98 0)
 			(effects
 				(font
@@ -11797,7 +11797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_0402"
 			(at 134.62 99.06 0)
 			(effects
 				(font
