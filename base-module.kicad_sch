@@ -13,11 +13,8 @@
 		(comment 2 "Project author: <author>")
 	)
 	(lib_symbols)
-	(bus_alias "CAN1"
-		(members "1+" "1-")
-	)
-	(bus_alias "CAN2"
-		(members "2+" "2-")
+	(bus_alias "CAN"
+		(members "+" "-")
 	)
 	(bus_alias "ST-LINK"
 		(members "D+" "D-")
@@ -31,6 +28,26 @@
 			(type default)
 		)
 		(uuid "088fd8c2-eebb-4af1-bbe0-793e15cd7b8f")
+	)
+	(bus
+		(pts
+			(xy 97.79 92.71) (xy 148.59 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9925db-aa1a-4599-902c-0cecc96499a3")
+	)
+	(bus
+		(pts
+			(xy 97.79 90.17) (xy 148.59 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bdcd1d8-4d2a-4cb5-9b91-04dfc31122ec")
 	)
 	(bus
 		(pts
@@ -91,26 +108,6 @@
 			(type default)
 		)
 		(uuid "97f8d972-04dc-42d9-b2f4-a6356b8dd1e6")
-	)
-	(bus
-		(pts
-			(xy 97.79 92.71) (xy 148.59 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2cb46fd-f08e-410c-b6d9-9f0050eff1f2")
-	)
-	(bus
-		(pts
-			(xy 97.79 90.17) (xy 148.59 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfda967e-b864-4ed9-bd9c-55c91c99ab83")
 	)
 	(bus
 		(pts
@@ -308,26 +305,6 @@
 			)
 			(uuid "e855ab60-70c7-4148-95d3-e4fb456b53bc")
 		)
-		(pin "CAN{CAN2}" input
-			(at 148.59 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "79686f92-0206-41fc-86fb-d6a823bde5df")
-		)
-		(pin "CAN{CAN1}" input
-			(at 148.59 90.17 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "38c91eb6-8efd-4dec-978c-811da910d4a6")
-		)
 		(pin "USBIN1.{+ -}" input
 			(at 148.59 54.61 180)
 			(effects
@@ -337,6 +314,26 @@
 				(justify left)
 			)
 			(uuid "4e0aadc9-069d-4dea-b70e-1b64b9107710")
+		)
+		(pin "CAN2{CAN}" input
+			(at 148.59 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "adb2873f-fcce-44b2-8696-d56a5a5a64a4")
+		)
+		(pin "CAN1{CAN}" input
+			(at 148.59 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "95f516cf-efa7-43a4-88d7-e44bab6ac5cd")
 		)
 		(instances
 			(project "base-module"
@@ -552,26 +549,6 @@
 			)
 			(uuid "78f6447e-cc35-4bff-9181-e28e763cd973")
 		)
-		(pin "CAN{CAN2}" input
-			(at 97.79 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "24c9a3db-9813-4e53-8a53-5c4de532bdc0")
-		)
-		(pin "CAN{CAN1}" input
-			(at 97.79 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "384a0c46-6585-4784-8e5e-f4f98e4b7960")
-		)
 		(pin "USB{BACKPLANE}" input
 			(at 97.79 35.56 0)
 			(effects
@@ -581,6 +558,26 @@
 				(justify right)
 			)
 			(uuid "8204d5dc-a9e6-4729-8a6f-019bcee90740")
+		)
+		(pin "CAN1{CAN}" input
+			(at 97.79 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f5cc3410-a9f9-4327-97b1-b02ad5c607a0")
+		)
+		(pin "CAN2{CAN}" input
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1bb521b1-9157-430e-bc39-7309cc0c519b")
 		)
 		(instances
 			(project "base-module"

@@ -866,7 +866,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 104.14) (xy 161.29 104.14)
+			(xy 182.88 104.14) (xy 161.29 104.14)
 		)
 		(stroke
 			(width 0)
@@ -886,7 +886,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 101.6) (xy 161.29 101.6)
+			(xy 182.88 101.6) (xy 161.29 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1776,7 +1776,7 @@
 	)
 	(hierarchical_label "CAN-"
 		(shape bidirectional)
-		(at 163.83 104.14 0)
+		(at 182.88 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1788,7 +1788,7 @@
 	)
 	(hierarchical_label "CAN+"
 		(shape bidirectional)
-		(at 163.83 101.6 0)
+		(at 182.88 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1986,7 +1986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HVSON-8-EP(3x3):HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm"
+		(property "Footprint" "Package_SON:HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm"
 			(at 165.1 191.44 0)
 			(effects
 				(font
