@@ -5405,7 +5405,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 88.9) (xy 190.5 88.9)
+			(xy 179.07 88.9) (xy 190.5 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5645,7 +5645,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 96.52) (xy 190.5 96.52)
+			(xy 179.07 96.52) (xy 190.5 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6255,7 +6255,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 92.71) (xy 190.5 92.71)
+			(xy 179.07 92.71) (xy 190.5 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6748,6 +6748,17 @@
 		)
 		(uuid "1e0441c2-e694-42b7-a7ed-39f6649d86c5")
 	)
+	(label "STLINK-BOOT0"
+		(at 179.07 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e06785e-d4ee-488f-9943-d4aa5b752138")
+	)
 	(label "SWO"
 		(at 115.57 80.01 180)
 		(fields_autoplaced yes)
@@ -6804,7 +6815,7 @@
 		(uuid "5faaeae2-007b-4952-a5d1-5532f330f767")
 	)
 	(label "CLK"
-		(at 181.61 96.52 0)
+		(at 179.07 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6880,6 +6891,17 @@
 		)
 		(uuid "97df5423-cbb6-4da8-91a3-618003eb79bf")
 	)
+	(label "USB.D+"
+		(at 220.98 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0a16793-4282-4ed4-a5b2-a0676e2b147c")
+	)
 	(label "STLINK-OSC_IN"
 		(at 52.07 64.77 0)
 		(fields_autoplaced yes)
@@ -6891,19 +6913,8 @@
 		)
 		(uuid "ba05e9e0-e548-41a3-939f-a63a5c658c3c")
 	)
-	(label "BOOT0"
-		(at 181.61 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb6e82da-0806-46fe-b5ae-384234af85da")
-	)
 	(label "DIO"
-		(at 181.61 92.71 0)
+		(at 179.07 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6982,18 +6993,6 @@
 			(justify left)
 		)
 		(uuid "5f6f7e5e-e029-4134-a792-2af36882e2e6")
-	)
-	(hierarchical_label "USB_D+"
-		(shape input)
-		(at 220.98 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6d88ac91-f900-44f2-9e31-221869a0de3d")
 	)
 	(hierarchical_label "NRST"
 		(shape output)
