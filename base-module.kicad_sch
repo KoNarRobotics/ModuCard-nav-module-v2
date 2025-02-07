@@ -41,6 +41,16 @@
 	)
 	(bus
 		(pts
+			(xy 135.89 55.88) (xy 148.59 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1d7469-42a8-449b-8405-80a700e5dd75")
+	)
+	(bus
+		(pts
 			(xy 110.49 41.91) (xy 104.14 41.91)
 		)
 		(stroke
@@ -68,16 +78,6 @@
 			(type default)
 		)
 		(uuid "7ffc347e-25a7-4285-8492-119d5028459a")
-	)
-	(bus
-		(pts
-			(xy 135.89 54.61) (xy 148.59 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a63307e-813a-4589-866b-e98db978ff80")
 	)
 	(bus
 		(pts
@@ -111,7 +111,7 @@
 	)
 	(bus
 		(pts
-			(xy 104.14 41.91) (xy 104.14 58.42)
+			(xy 104.14 41.91) (xy 104.14 59.69)
 		)
 		(stroke
 			(width 0)
@@ -121,7 +121,7 @@
 	)
 	(bus
 		(pts
-			(xy 104.14 58.42) (xy 110.49 58.42)
+			(xy 104.14 59.69) (xy 110.49 59.69)
 		)
 		(stroke
 			(width 0)
@@ -399,16 +399,6 @@
 				(justify left top)
 			)
 		)
-		(pin "USBIN1.{+ -}" input
-			(at 148.59 54.61 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "4e0aadc9-069d-4dea-b70e-1b64b9107710")
-		)
 		(pin "QSPI1{QSPI}" input
 			(at 193.04 73.66 0)
 			(effects
@@ -449,6 +439,16 @@
 			)
 			(uuid "b5a0d17e-17b9-488f-996c-746b62a94522")
 		)
+		(pin "USB_MCU{USB}" input
+			(at 148.59 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39375a4c-9c10-4301-9b74-766af280eb37")
+		)
 		(instances
 			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
@@ -488,7 +488,7 @@
 			)
 		)
 		(pin "USBIN1.{+ -}" input
-			(at 110.49 58.42 180)
+			(at 110.49 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -497,7 +497,7 @@
 			)
 			(uuid "70ba8c34-1228-4bf6-9d23-9d1360b2bc8c")
 		)
-		(pin "USBOUT1.{+ -}" input
+		(pin "USBOUT1{USB}" input
 			(at 110.49 64.77 180)
 			(effects
 				(font
@@ -505,17 +505,17 @@
 				)
 				(justify left)
 			)
-			(uuid "2f7c121d-7130-4d75-9694-e2d809ed4ba6")
+			(uuid "bc0f17fd-1568-4cfd-a9dc-839741c5fc8e")
 		)
-		(pin "USBOUT2.{+ -}" input
-			(at 135.89 54.61 0)
+		(pin "USB_MCU{USB}" input
+			(at 135.89 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c4547cbd-44d9-442e-86f1-f04f8d63abd6")
+			(uuid "0c956685-101a-4f07-b7bf-c720f0663eeb")
 		)
 		(instances
 			(project "base-module"
