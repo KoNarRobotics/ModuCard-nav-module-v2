@@ -9793,7 +9793,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kicad-footprints:TL2243"
+		(property "Footprint" "TL2243:TL2243"
 			(at 52.07 166.37 0)
 			(effects
 				(font
@@ -11467,7 +11467,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "kicad-footprints:TL2243"
+		(property "Footprint" "TL2243:TL2243"
 			(at 39.37 43.18 0)
 			(effects
 				(font
