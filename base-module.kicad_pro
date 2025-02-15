@@ -487,10 +487,27 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "CAN",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "CAN_120_DIFF",
+        "pcb_color": "rgb(255, 81, 215)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
+        "via_diameter": 0.5,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.18,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "QSPI_50S_SE",
+        "pcb_color": "rgb(55, 255, 75)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.18,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
@@ -504,8 +521,8 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "USB_90_DIFF",
+        "pcb_color": "rgb(38, 8, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.5,
@@ -520,16 +537,20 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "USB",
+        "netclass": "USB_90_DIFF",
         "pattern": "*.D*"
       },
       {
-        "netclass": "CAN",
+        "netclass": "CAN_120_DIFF",
         "pattern": "*CAN*.+"
       },
       {
-        "netclass": "CAN",
+        "netclass": "CAN_120_DIFF",
         "pattern": "*CAN*.-"
+      },
+      {
+        "netclass": "QSPI_50S_SE",
+        "pattern": "*QSPI*"
       }
     ]
   },
