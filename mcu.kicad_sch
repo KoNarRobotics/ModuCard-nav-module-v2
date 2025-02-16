@@ -3467,6 +3467,259 @@
 				)
 			)
 		)
+		(symbol "PCM_JLCPCB-Capacitors:0402,18pF"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.032 1.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "18pF"
+				(at 2.032 -0.3782 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_JLCPCB:C_0402"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG180J500NT_C1549.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V 18pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C1549"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Stock" "582948"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.004USD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Process" "SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Minimum Qty" "20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Attrition Qty" "10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Class" "Basic Component"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part" "0402CG180J500NT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage Rated" "50V"
+				(at 2.032 -2.0462 0)
+				(effects
+					(font
+						(size 0.8 0.8)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "±5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Capacitance" "18pF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "C0G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402,18pF_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.635) (xy 1.27 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402,18pF_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.175)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_JLCPCB-Capacitors:0402,2.2uF"
 			(pin_numbers hide)
 			(pin_names
@@ -6538,6 +6791,12 @@
 		(uuid "6bd46a35-838b-420b-96d5-576646db9b89")
 	)
 	(junction
+		(at 215.9 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ca64f11-2718-43c6-a54f-ec4c9ccd2cde")
+	)
+	(junction
 		(at 124.46 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6572,6 +6831,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3099b50-ac45-4227-a15f-25e4594103b7")
+	)
+	(junction
+		(at 200.66 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c59d0dce-acdb-4309-a8a1-89ebe78f8cd3")
 	)
 	(junction
 		(at 134.62 24.13)
@@ -6714,10 +6979,6 @@
 		(uuid "63e94e10-5c9a-40ca-b862-c0ce6187ce78")
 	)
 	(no_connect
-		(at 162.56 168.91)
-		(uuid "667a5d66-04e3-45ae-bade-5459b9fc9dc4")
-	)
-	(no_connect
 		(at 162.56 135.89)
 		(uuid "66a744a8-4420-4b19-a6b2-6b9c689fece4")
 	)
@@ -6816,10 +7077,6 @@
 	(no_connect
 		(at 95.25 128.27)
 		(uuid "da724f57-be61-4e9d-a470-1bf70dc5ef5b")
-	)
-	(no_connect
-		(at 162.56 171.45)
-		(uuid "de375ed8-814a-40c3-9333-39863a77672d")
 	)
 	(no_connect
 		(at 162.56 46.99)
@@ -7090,6 +7347,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 151.13) (xy 215.9 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a94c09-1064-46cd-b9e2-f6d975acbe47")
+	)
+	(wire
+		(pts
 			(xy 231.14 41.91) (xy 218.44 41.91)
 		)
 		(stroke
@@ -7267,6 +7534,16 @@
 			(type default)
 		)
 		(uuid "25be3ae8-0d70-4376-83d7-16f08a351d0e")
+	)
+	(wire
+		(pts
+			(xy 200.66 139.7) (xy 200.66 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26333da2-1edc-4667-8f80-ecf73fe61722")
 	)
 	(wire
 		(pts
@@ -7740,6 +8017,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 139.7) (xy 215.9 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5466ecd5-b29a-4d66-a655-cdf827b1c0bd")
+	)
+	(wire
+		(pts
 			(xy 149.86 46.99) (xy 162.56 46.99)
 		)
 		(stroke
@@ -7757,6 +8044,16 @@
 			(type default)
 		)
 		(uuid "55fe377b-971b-4bf1-9bde-e76b9246e775")
+	)
+	(wire
+		(pts
+			(xy 191.77 139.7) (xy 200.66 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5628696a-a1e5-4732-9252-0cac926e5aca")
 	)
 	(wire
 		(pts
@@ -7950,6 +8247,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 139.7) (xy 223.52 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7494b034-bd5a-4721-823a-27945d7466db")
+	)
+	(wire
+		(pts
 			(xy 162.56 161.29) (xy 149.86 161.29)
 		)
 		(stroke
@@ -8077,6 +8384,16 @@
 			(type default)
 		)
 		(uuid "80243344-8b71-4e6d-ba1f-e4e9fa241962")
+	)
+	(wire
+		(pts
+			(xy 203.2 139.7) (xy 200.66 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829b4329-c461-473d-a74a-3697da9ee69a")
 	)
 	(wire
 		(pts
@@ -8710,6 +9027,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 139.7) (xy 215.9 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceeb9393-db4a-41d4-ae4f-f3c6f68541e9")
+	)
+	(wire
+		(pts
 			(xy 162.56 128.27) (xy 149.86 128.27)
 		)
 		(stroke
@@ -8990,6 +9317,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 151.13) (xy 200.66 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84d856c-a1d2-4443-9ffd-c69922356951")
+	)
+	(wire
+		(pts
 			(xy 162.56 24.13) (xy 165.1 24.13)
 		)
 		(stroke
@@ -9137,16 +9474,6 @@
 		)
 		(uuid "019b86df-4e05-43ae-83a3-133a0ef65454")
 	)
-	(label "PC15"
-		(at 162.56 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "01cbfc1c-431c-49cd-a7a0-f0036b8c5c4a")
-	)
 	(label "PE4"
 		(at 95.25 80.01 0)
 		(effects
@@ -9167,16 +9494,6 @@
 		)
 		(uuid "0790abc4-d0b8-469f-a299-40e0d8e63f57")
 	)
-	(label "PC14"
-		(at 162.56 168.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "089fea6b-42ba-4347-b59b-068c89b3eecf")
-	)
 	(label "PC9"
 		(at 162.56 156.21 180)
 		(effects
@@ -9186,6 +9503,16 @@
 			(justify right bottom)
 		)
 		(uuid "0a40884c-cb31-422d-8b21-830140325abd")
+	)
+	(label "OSC32_IN"
+		(at 223.52 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f5b8d1a-a220-49f1-8985-7874824f0773")
 	)
 	(label "PE10"
 		(at 95.25 95.25 0)
@@ -9246,6 +9573,16 @@
 			(justify left bottom)
 		)
 		(uuid "244a013b-0fe6-4e12-8d83-f3e4429bcff3")
+	)
+	(label "OSC32_OUT"
+		(at 191.77 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2674de08-716c-43eb-a1b5-c65cb35bb11c")
 	)
 	(label "PA5"
 		(at 162.56 59.69 180)
@@ -9447,6 +9784,16 @@
 		)
 		(uuid "573dcf3f-017b-4e93-91c1-70a596a06c01")
 	)
+	(label "OSC32_IN"
+		(at 162.56 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "58368b04-9276-4164-8c63-968d4951baa6")
+	)
 	(label "OSC_OUT"
 		(at 76.2 110.49 180)
 		(effects
@@ -9606,6 +9953,16 @@
 			(justify right bottom)
 		)
 		(uuid "762a45a6-469c-460f-aa94-f9de541eed5b")
+	)
+	(label "OSC32_OUT"
+		(at 162.56 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "794aa610-2176-4312-8f33-62de0dc2bd57")
 	)
 	(label "CAN1.RX"
 		(at 218.44 101.6 0)
@@ -10322,6 +10679,71 @@
 			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8"
 					(reference "#PWR0415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09f926c1-e16b-4412-87a5-8ceb166fe0de")
+		(property "Reference" "#PWR0332"
+			(at 215.9 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa9d7d80-4791-43d8-8ce8-848b93a7a255")
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8"
+					(reference "#PWR0332")
 					(unit 1)
 				)
 			)
@@ -12548,6 +12970,396 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0402,18pF")
+		(at 200.66 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50877fa5-76ac-4653-a613-0338507b8521")
+		(property "Reference" "C313"
+			(at 202.438 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18pF"
+			(at 202.438 146.0501 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 198.882 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG180J500NT_C1549.pdf"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 18pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1549"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "582948"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402CG180J500NT"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 202.438 148.5901 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "18pF"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "C0G"
+			(at 200.66 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23a32166-322f-4ba3-8684-cb08c30add5d")
+		)
+		(pin "2"
+			(uuid "90df5628-a2de-494d-9314-53a2fb9546d4")
+		)
+		(instances
+			(project ""
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8"
+					(reference "C313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0402,18pF")
+		(at 215.9 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5240581c-3451-44cc-a902-d527ecdb39e4")
+		(property "Reference" "C314"
+			(at 217.678 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18pF"
+			(at 217.678 146.05 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 214.122 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-0402CG180J500NT_C1549.pdf"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 18pF C0G ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1549"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "582948"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH(Guangdong Fenghua Advanced Tech)"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402CG180J500NT"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage Rated" "50V"
+			(at 217.678 148.59 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capacitance" "18pF"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Temperature Coefficient" "C0G"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e7f1666-2d3e-42ec-963f-a6aa5f57cd1f")
+		)
+		(pin "2"
+			(uuid "ac0f0732-7868-4c17-ba95-2aaac2c7601b")
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8"
+					(reference "C314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32H7:STM32H750VBTx")
 		(at 127 110.49 0)
 		(unit 1)
@@ -14149,6 +14961,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 200.66 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95b08011-ecc0-410d-9f3a-f56dd124525c")
+		(property "Reference" "#PWR0310"
+			(at 200.66 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ce308da-41b0-493d-b038-5f27574bf37a")
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8"
+					(reference "#PWR0310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Inductors:Ferrite,0603")
 		(at 158.75 24.13 90)
 		(unit 1)
@@ -15680,7 +16557,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Crystals:Crystal, 32.768kHz, 13pF")
-		(at 40.64 100.33 0)
+		(at 208.28 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15689,7 +16566,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd4a9ef1-e655-4f04-b657-3e48f02aec87")
 		(property "Reference" "X300"
-			(at 40.64 96.52 0)
+			(at 208.28 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15697,7 +16574,7 @@
 			)
 		)
 		(property "Value" "Q13FC1350000400"
-			(at 40.64 102.87 0)
+			(at 208.28 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15706,7 +16583,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:FC-135R_L3.2-W1.5"
-			(at 40.64 110.49 0)
+			(at 208.28 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15716,7 +16593,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404180925_Seiko-Epson-Q13FC13500004_C32346.pdf"
-			(at 38.354 100.203 0)
+			(at 205.994 139.573 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15726,7 +16603,7 @@
 			)
 		)
 		(property "Description" "32.768kHz Surface Mount Crystal 12.5pF ±20ppm SMD3215-2P Crystals ROHS"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15735,7 +16612,7 @@
 			)
 		)
 		(property "LCSC" "C32346"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15744,7 +16621,7 @@
 			)
 		)
 		(property "Stock" "185543"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15753,7 +16630,7 @@
 			)
 		)
 		(property "Price" "0.174USD"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15762,7 +16639,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15771,7 +16648,7 @@
 			)
 		)
 		(property "Minimum Qty" "1"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15780,7 +16657,7 @@
 			)
 		)
 		(property "Attrition Qty" "0"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15789,7 +16666,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15798,7 +16675,7 @@
 			)
 		)
 		(property "Category" "Crystals/Oscillators/Resonators,Crystals"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15807,7 +16684,7 @@
 			)
 		)
 		(property "Manufacturer" "Seiko Epson"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15816,7 +16693,7 @@
 			)
 		)
 		(property "Part" "Q13FC13500004"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15825,7 +16702,7 @@
 			)
 		)
 		(property "Frequency" "32.768kHz"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15834,7 +16711,7 @@
 			)
 		)
 		(property "Equivalent Series Resistance (Esr)" "70kΩ"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15843,7 +16720,7 @@
 			)
 		)
 		(property "Operating Temperature" "-40°C~+85°C"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15852,7 +16729,7 @@
 			)
 		)
 		(property "Frequency Tolerance" "±20ppm"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15861,7 +16738,7 @@
 			)
 		)
 		(property "Crystal Type" "SMD Crystal Resonator"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15870,7 +16747,7 @@
 			)
 		)
 		(property "Load Capacitance" "12.5pF"
-			(at 40.64 100.33 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
