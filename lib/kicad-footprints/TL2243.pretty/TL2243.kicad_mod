@@ -194,4 +194,15 @@
 		(uuid "1bd3c4d5-f66a-4504-a1f9-4d0ed14f12b3")
 		(members "b8e31c10-48c7-4aee-bc0e-cc8f72eb79b3" "fbfddf23-cb4b-4471-b3ad-790a0e797cf9")
 	)
+	(model "${KIPRJMOD}/lib/kicad-3d-models/TL2243.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
 )

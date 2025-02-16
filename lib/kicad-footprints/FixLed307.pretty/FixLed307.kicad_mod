@@ -295,4 +295,15 @@
 			"d5a1a555-a500-4098-a232-af78085f0802" "f4d41875-4c05-48c8-945a-11fc010ee37d"
 		)
 	)
+	(model "${KIPRJMOD}/lib/kicad-3d-models/FIX-LED-307.step"
+		(offset
+			(xyz 0 0.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 )
