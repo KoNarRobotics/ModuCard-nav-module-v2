@@ -8144,6 +8144,10 @@
 		(uuid "050c8f38-e913-4e32-a2b6-a6025bebdc24")
 	)
 	(no_connect
+		(at 162.56 102.87)
+		(uuid "09a9fb7b-e89d-44ae-bfef-95408ea9802e")
+	)
+	(no_connect
 		(at 162.56 62.23)
 		(uuid "0a0f7287-420a-49ee-87ef-7236443a1d3c")
 	)
@@ -8192,10 +8196,6 @@
 		(uuid "31ed9f5c-8ce0-4260-8e88-eb0f250e047a")
 	)
 	(no_connect
-		(at 162.56 120.65)
-		(uuid "393752e6-2ed3-4964-a252-3a84b8f32b50")
-	)
-	(no_connect
 		(at 95.25 97.79)
 		(uuid "3a60229a-dd0c-49d3-9da5-bf0643ce161a")
 	)
@@ -8206,6 +8206,10 @@
 	(no_connect
 		(at 162.56 57.15)
 		(uuid "3ccb9de6-607c-42b9-bae8-ae224e0d3567")
+	)
+	(no_connect
+		(at 162.56 105.41)
+		(uuid "3f636094-e796-4e96-a0cf-4fb58c937045")
 	)
 	(no_connect
 		(at 95.25 105.41)
@@ -8250,10 +8254,6 @@
 	(no_connect
 		(at 95.25 100.33)
 		(uuid "7133db51-7e55-45bc-b3d2-a3d55a24fc0e")
-	)
-	(no_connect
-		(at 162.56 123.19)
-		(uuid "75b23bc8-4b57-4d24-85d7-fc5daa9c5f4c")
 	)
 	(no_connect
 		(at 95.25 148.59)
@@ -9298,6 +9298,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 105.41) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c62e879-72ba-4950-80a1-4670efdd133d")
+	)
+	(wire
+		(pts
 			(xy 95.25 120.65) (xy 104.14 120.65)
 		)
 		(stroke
@@ -9505,6 +9515,16 @@
 			(type default)
 		)
 		(uuid "5da643d0-0c9e-429c-81eb-8cfa13c5ff6a")
+	)
+	(wire
+		(pts
+			(xy 162.56 102.87) (xy 149.86 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61584259-0e64-48e6-a149-5933a1f78354")
 	)
 	(wire
 		(pts
@@ -9735,16 +9755,6 @@
 			(type default)
 		)
 		(uuid "7d09fb43-899c-4112-8e63-e033501dd3a2")
-	)
-	(wire
-		(pts
-			(xy 149.86 105.41) (xy 162.56 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d7b2627-cbad-41be-8f05-1d07dc42ad8b")
 	)
 	(wire
 		(pts
@@ -10105,16 +10115,6 @@
 			(type default)
 		)
 		(uuid "a380cb7e-773b-4334-8fe7-900dd60bec56")
-	)
-	(wire
-		(pts
-			(xy 149.86 102.87) (xy 162.56 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4f75249-3fec-40b4-942c-50ab2fbf34d6")
 	)
 	(wire
 		(pts
@@ -10939,7 +10939,7 @@
 		)
 		(uuid "3a7b9f31-dd58-44f1-b2ab-b51406283ea9")
 	)
-	(text "Target I_{LED} = 10mA"
+	(text "Target I_{LED} = 5mA"
 		(exclude_from_sim no)
 		(at 238.506 70.104 0)
 		(effects
@@ -10988,6 +10988,16 @@
 			(justify left bottom)
 		)
 		(uuid "0a96e662-f8c9-4e7b-96a4-3372fa248f66")
+	)
+	(label "CAN2.RX"
+		(at 162.56 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b00d4ef-f28a-408e-a78f-9c474c9e275a")
 	)
 	(label "OSC32_IN"
 		(at 219.71 144.78 180)
@@ -11119,16 +11129,6 @@
 		)
 		(uuid "30fe7123-52f8-4087-b3e9-683d00ea8815")
 	)
-	(label "PB12"
-		(at 162.56 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "32747bdf-82a3-4e36-a1bf-9f2c4e5d1a89")
-	)
 	(label "PE11"
 		(at 95.25 97.79 0)
 		(effects
@@ -11158,16 +11158,6 @@
 			(justify right bottom)
 		)
 		(uuid "380fc107-42f6-49dd-86ba-7f4cdf82c31c")
-	)
-	(label "CAN2.TX"
-		(at 162.56 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3a812b6c-f6aa-444a-a687-83a4e08b32a9")
 	)
 	(label "QSPI1.IO2"
 		(at 182.88 48.26 0)
@@ -11619,16 +11609,6 @@
 		)
 		(uuid "95b95c6c-8318-4b24-8692-e838f2e1a62e")
 	)
-	(label "PB13"
-		(at 162.56 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "985d9f0f-50d1-4a3c-86f5-3f2ee745cf44")
-	)
 	(label "BOOT0"
 		(at 95.25 52.07 0)
 		(effects
@@ -11648,6 +11628,16 @@
 			(justify right bottom)
 		)
 		(uuid "997b1f48-9186-42d5-9942-1daca5b64a95")
+	)
+	(label "PB6"
+		(at 162.56 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b85ada9-b393-47b7-a093-8835b5608456")
 	)
 	(label "OSC_IN"
 		(at 95.25 62.23 0)
@@ -11699,6 +11689,16 @@
 		)
 		(uuid "a02a3a01-16e9-476d-b6f4-c896bdd3d519")
 	)
+	(label "PB5"
+		(at 162.56 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2aa0f3a-2687-4dd5-b510-e7a7bc33a5d5")
+	)
 	(label "PE9"
 		(at 95.25 92.71 0)
 		(effects
@@ -11718,16 +11718,6 @@
 			(justify right bottom)
 		)
 		(uuid "a46ff36a-0937-4218-a228-9dfe882b21ea")
-	)
-	(label "CAN2.RX"
-		(at 162.56 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a4ce1992-22bc-47fa-a97d-fc2495d331a3")
 	)
 	(label "PC3"
 		(at 162.56 140.97 180)
@@ -11998,6 +11988,16 @@
 			(justify right bottom)
 		)
 		(uuid "d63d94f0-778e-4647-ae14-195fa5f4db4b")
+	)
+	(label "CAN2.TX"
+		(at 162.56 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dae41bbe-4b02-49c4-9f49-6159f1b67bb1")
 	)
 	(label "PC6"
 		(at 162.56 148.59 180)
