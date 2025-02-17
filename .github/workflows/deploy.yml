@@ -126,7 +126,9 @@ jobs:
           git add fab/*_Silkscreen.gbr
           git add fab/*_Mask.gbr
           git add fab/*Edge_Cuts.gbr
-          git add fab/*PTH-drl.gbr
+          for file in fab/*PTH-drl.gbr; do
+            [ -e "$file" ] && git add "$file"
+          done
           git add fab/*.drl
           
           # Check if there are changes to commit
