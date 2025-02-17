@@ -4,6 +4,7 @@ on:
   workflow_dispatch:  # Manually trigger the workflow
   push:
     branches:
+      - 2-create-layout
       - master  # Trigger on push to master branch
       - main    # Trigger on push to main branch
   pull_request:
