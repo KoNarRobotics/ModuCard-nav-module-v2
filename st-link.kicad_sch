@@ -115,6 +115,259 @@
 				)
 			)
 		)
+		(symbol "Device:Crystal_GND24"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_ST_STM32F1:STM32F103CBTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1945,310 +2198,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-		)
-		(symbol "PCM_JLCPCB-Crystals:Crystal, 8MHz, 20pF, ±10ppm"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "X"
-				(at 0 3.5 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "X50328MSB2GI"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "PCM_JLCPCB:CRYSTAL-SMD_L5.0-W3.2"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403291504_YXC-Crystal-Oscillators-X50328MSB2GI_C115962.pdf"
-				(at -2.286 0.127 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "8MHz Surface Mount Crystal 20pF ±10ppm ±20ppm SMD5032 Crystals ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C115962"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Stock" "652423"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Price" "0.199USD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Process" "SMT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Minimum Qty" "5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Attrition Qty" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Class" "Basic Component"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Category" "Crystals/Oscillators/Resonators,Crystals"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Yangxing Tech"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part" "X50328MSB2GI"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Frequency" "8MHz"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Frequency Stability" "±50ppm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Operating Temperature" "-40°C~+85°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Frequency Tolerance" "±10ppm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Crystal Type" "SMD Crystal Resonator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Load Capacitance" "20pF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C115962"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal, 8MHz, 20pF, ±10ppm_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.778) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Crystal, 8MHz, 20pF, ±10ppm_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 0.762 -1.778) (xy -0.762 -1.778) (xy -0.762 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -4337,7 +4286,7 @@
 				)
 			)
 		)
-		(symbol "PCM_JLCPCB-Transistors:NPN,S9013"
+		(symbol "PCM_JLCPCB-Transistors:NPN,MMST3904"
 			(pin_names
 				(offset 0)
 			)
@@ -4353,7 +4302,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "S9013"
+			(property "Value" "MMST3904"
 				(at 4.8514 -1.2122 0)
 				(effects
 					(font
@@ -4362,7 +4311,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
+			(property "Footprint" "PCM_JLCPCB:Q_SOT-323"
 				(at -1.778 0 90)
 				(effects
 					(font
@@ -4371,7 +4320,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312291746_hongjiacheng-S9013_C20069127.pdf"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404261206_hongjiacheng-MMST3904_C22388837.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4380,7 +4329,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "25V 300mW 120@50mA,1.0V 500mA NPN SOT-23 Bipolar (BJT) ROHS"
+			(property "Description" "40V 200mW 40@0.1mA,1.0V 200mA NPN SOT-323 Bipolar (BJT) ROHS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4389,7 +4338,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C20069127"
+			(property "LCSC" "C22388837"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4398,7 +4347,7 @@
 					(hide yes)
 				)
 			)
-			(property "Stock" "221513"
+			(property "Stock" "32529"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4407,7 +4356,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price" "0.016USD"
+			(property "Price" "0.017USD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4452,7 +4401,7 @@
 					(hide yes)
 				)
 			)
-			(property "Category" "Triode/MOS Tube/Transistor,Bipolar Transistors - BJT"
+			(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4470,7 +4419,88 @@
 					(hide yes)
 				)
 			)
-			(property "Part" "S9013"
+			(property "Part" "MMST3904"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Transition Frequency (fT)" "300MHz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Operating Temperature" "-55°C~+150°C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Collector Cut-Off Current (Icbo)" "60nA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Transistor Type" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DC Current Gain (hFE@Ic,Vce)" "40@0.1mA,1.0V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power Dissipation (Pd)" "200mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Collector Current (Ic)" "200mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "0.25V@10mA,1.0mA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Collector-Emitter Breakdown Voltage (Vceo)" "40V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4488,7 +4518,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NPN,S9013_0_1"
+			(symbol "NPN,MMST3904_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -4585,7 +4615,7 @@
 					)
 				)
 			)
-			(symbol "NPN,S9013_1_1"
+			(symbol "NPN,MMST3904_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -5040,6 +5070,12 @@
 		(uuid "3cc2958c-2e7f-4ddd-92b9-873a484bc4aa")
 	)
 	(junction
+		(at 19.05 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "445b8e66-dd02-497c-97e5-0c728c875ff7")
+	)
+	(junction
 		(at 233.68 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5442,6 +5478,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 81.28) (xy 19.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384f57f8-2857-4cbc-9343-27117507afec")
+	)
+	(wire
+		(pts
 			(xy 102.87 80.01) (xy 115.57 80.01)
 		)
 		(stroke
@@ -5609,6 +5655,16 @@
 			(type default)
 		)
 		(uuid "5e57ca9c-4c5b-43a5-b806-de85e07a77b6")
+	)
+	(wire
+		(pts
+			(xy 19.05 81.28) (xy 19.05 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f9ad49-a24d-4dc6-9f7e-f073df32a68b")
 	)
 	(wire
 		(pts
@@ -6002,6 +6058,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 76.2) (xy 36.83 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91b374a-d2aa-4085-bbf7-ec0afa1e53bb")
+	)
+	(wire
+		(pts
 			(xy 66.04 44.45) (xy 66.04 45.72)
 		)
 		(stroke
@@ -6122,6 +6188,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 71.12) (xy 30.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0813382-007c-484e-b2ec-80c8ad8c28fc")
+	)
+	(wire
+		(pts
 			(xy 66.04 35.56) (xy 66.04 36.83)
 		)
 		(stroke
@@ -6179,16 +6255,6 @@
 			(type default)
 		)
 		(uuid "cdc4a6dc-3280-4b1c-973a-86b98939e0d1")
-	)
-	(wire
-		(pts
-			(xy 35.56 76.2) (xy 36.83 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2b358d1-d412-4740-aac7-16aa1ffcec6b")
 	)
 	(wire
 		(pts
@@ -6322,7 +6388,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 76.2) (xy 25.4 76.2)
+			(xy 24.13 76.2) (xy 26.67 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6559,6 +6625,16 @@
 			(type default)
 		)
 		(uuid "fb0009e7-14c9-46ac-a3e7-66089cd48f67")
+	)
+	(wire
+		(pts
+			(xy 19.05 81.28) (xy 19.05 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5530c5-5684-4a16-bc74-1c99ea995fd0")
 	)
 	(polyline
 		(pts
@@ -7859,6 +7935,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 19.05 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1908b9b4-68eb-4957-971b-31a4e1db1eb3")
+		(property "Reference" "#PWR0331"
+			(at 19.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 19.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79cba121-f772-45a5-be9d-4879448b87f8")
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0"
+					(reference "#PWR0331")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,10kΩ")
 		(at 62.23 74.93 90)
 		(unit 1)
@@ -8758,170 +8899,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_JLCPCB-Transistors:NPN,S9013")
-		(at 220.98 91.44 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3323bad1-cfea-4243-ac2f-93331d5a101a")
-		(property "Reference" "Q700"
-			(at 215.9 90.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S9013"
-			(at 215.9 92.71 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
-			(at 222.758 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312291746_hongjiacheng-S9013_C20069127.pdf"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "25V 300mW 120@50mA,1.0V 500mA NPN SOT-23 Bipolar (BJT) ROHS"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C20069127"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "221513"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.016USD"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "10"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "4"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Preferred Component"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Triode/MOS Tube/Transistor,Bipolar Transistors - BJT"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "S9013"
-			(at 220.98 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "85b9b193-9ed8-40b4-b084-0ec6937e4600")
-		)
-		(pin "2"
-			(uuid "353a2bc0-dfd9-4165-8f52-d9287cb1d3be")
-		)
-		(pin "1"
-			(uuid "7000dead-422e-4674-af98-8cc0a8788be8")
-		)
-		(instances
-			(project "base-module"
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0"
-					(reference "Q700")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF,(2)")
 		(at 66.04 40.64 0)
 		(unit 1)
@@ -9463,219 +9440,6 @@
 			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0"
 					(reference "R713")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Crystals:Crystal, 8MHz, 20pF, ±10ppm")
-		(at 30.48 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "563082d8-f8cf-4112-b7a1-746947ce5e27")
-		(property "Reference" "X700"
-			(at 30.48 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "X50328MSB2GI"
-			(at 30.48 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:CRYSTAL-SMD_L5.0-W3.2"
-			(at 30.48 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403291504_YXC-Crystal-Oscillators-X50328MSB2GI_C115962.pdf"
-			(at 28.194 76.073 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "8MHz Surface Mount Crystal 20pF ±10ppm ±20ppm SMD5032 Crystals ROHS"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C115962"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "652423"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.199USD"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Minimum Qty" "5"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "0"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Crystals/Oscillators/Resonators,Crystals"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yangxing Tech"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "X50328MSB2GI"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Frequency" "8MHz"
-			(at 30.48 79.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Frequency Stability" "±50ppm"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature" "-40°C~+85°C"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Frequency Tolerance" "±10ppm"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Crystal Type" "SMD Crystal Resonator"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Load Capacitance" "20pF"
-			(at 30.48 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "057ff7c5-5573-4811-b022-ce01b4b3bb2a")
-		)
-		(pin "2"
-			(uuid "40308c33-9605-4959-9394-4fa0e107a2d7")
-		)
-		(instances
-			(project "base-module"
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0"
-					(reference "X700")
 					(unit 1)
 				)
 			)
@@ -12119,7 +11883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 115.57 67.31 0)
 			(effects
 				(font
@@ -13637,6 +13401,251 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Transistors:NPN,MMST3904")
+		(at 220.98 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b57e186f-37f6-459f-98ad-128668292326")
+		(property "Reference" "Q700"
+			(at 215.9 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMST3904"
+			(at 215.9 92.71 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-323"
+			(at 222.758 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2404261206_hongjiacheng-MMST3904_C22388837.pdf"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 200mW 40@0.1mA,1.0V 200mA NPN SOT-323 Bipolar (BJT) ROHS"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22388837"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Stock" "32529"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.017USD"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Process" "SMT"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Minimum Qty" "10"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Class" "Preferred Component"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" "Transistors/Thyristors,Bipolar (BJT)"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "MMST3904"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transition Frequency (fT)" "300MHz"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Operating Temperature" "-55°C~+150°C"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Cut-Off Current (Icbo)" "60nA"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Transistor Type" "NPN"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DC Current Gain (hFE@Ic,Vce)" "40@0.1mA,1.0V"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power Dissipation (Pd)" "200mW"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector Current (Ic)" "200mA"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)" "0.25V@10mA,1.0mA"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Collector-Emitter Breakdown Voltage (Vceo)" "40V"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "039a6573-d13b-4b1f-a805-76c4a599e715")
+		)
+		(pin "2"
+			(uuid "9965bed7-0009-4a1c-b9ed-0a2082fa6283")
+		)
+		(pin "3"
+			(uuid "096a1b71-643d-4915-abc7-88e600b2a9ce")
+		)
+		(instances
+			(project ""
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0"
+					(reference "Q700")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 187.96 102.87 0)
 		(unit 1)
@@ -14015,7 +14024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 115.57 64.77 0)
 			(effects
 				(font
@@ -15015,6 +15024,79 @@
 			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0"
 					(reference "#PWR0700")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 30.48 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee4e5791-5a2e-439c-bccf-8874379e939b")
+		(property "Reference" "Y700"
+			(at 30.48 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8 MHz"
+			(at 30.48 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
+			(at 30.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 30.48 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "12561717-274f-4ef2-a547-6f2a69aa8968")
+		)
+		(pin "3"
+			(uuid "9c216ad7-6066-4b06-af01-8e8bdc69b2ec")
+		)
+		(pin "1"
+			(uuid "65230053-4a5d-4ab4-a3a2-7418f7ed752a")
+		)
+		(pin "2"
+			(uuid "8dbf88a2-f100-455e-b67d-922082dc3bd7")
+		)
+		(instances
+			(project ""
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0"
+					(reference "Y700")
 					(unit 1)
 				)
 			)

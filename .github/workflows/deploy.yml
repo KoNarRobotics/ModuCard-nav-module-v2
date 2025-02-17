@@ -1,0 +1,134 @@
+name: KiCad CI
+
+on:
+  workflow_dispatch:  # Manually trigger the workflow
+  push:
+    branches:
+      - master  # Trigger on push to master branch
+      - main    # Trigger on push to main branch
+  pull_request:
+    branches:
+      - master  # Trigger on pull requests targeting master branch
+      - main    # Trigger on pull requests targeting main branch
+
+permissions:
+  contents: write  # Ensure write access for the repository contents
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Step 2: Find project, schematic, and PCB files
+      - name: Find project, schematic, and PCB files
+        id: find_files
+        run: |
+          # Find the .pro project file
+          project_file=$(find . -type f -name "*.kicad_pro" | head -n 1)
+      
+          if [ -z "$project_file" ]; then
+            echo "No project file found!"
+            exit 1
+          fi
+      
+          # Extract the project name from the .pro file (remove the extension)
+          base_name=$(basename "$project_file" .kicad_pro)
+      
+          # Find the corresponding schematic and PCB files based on the project name
+          schematic_file="./${base_name}.kicad_sch"
+          pcb_file="./${base_name}.kicad_pcb"
+          
+          if [ ! -f "$schematic_file" ]; then
+            echo "Schematic file $schematic_file does not exist!"
+            exit 1
+          fi
+      
+          if [ ! -f "$pcb_file" ]; then
+            echo "PCB file $pcb_file does not exist!"
+            exit 1
+          fi
+      
+          echo "Found project file: $project_file"
+          echo "Found schematic file: $schematic_file"
+          echo "Found PCB file: $pcb_file"
+
+          # Store the base name for later use
+          echo "base_name=$base_name" >> $GITHUB_ENV
+          echo "schematic_file=$schematic_file" >> $GITHUB_ENV
+          echo "pcb_file=$pcb_file" >> $GITHUB_ENV
+
+      # Step 3: Install KiCad V8.0.0 (or adjust version if necessary)
+      - name: Install KiCad V8.0.0 (or adjust version if necessary)
+        run: |
+          sudo add-apt-repository ppa:kicad/kicad-8.0-releases -y
+          sudo apt update
+          sudo apt install -y kicad
+
+      # Step 4: Generate the schematic PDF
+      - name: Generate schematic PDF
+        run: |
+          # Ensure the 'doc' directory exists
+          mkdir -p doc
+          
+          # Generate the schematic PDF with the project name dynamically inserted
+          kicad-cli sch export pdf --output "doc/${{ env.base_name }}-schematic.pdf" ${{ env.schematic_file }}
+      
+          # Check if the PDF was generated successfully
+          if [ ! -f "doc/${{ env.base_name }}-schematic.pdf" ]; then
+            echo "Error: schematic PDF was not generated."
+            exit 1
+          fi
+          echo "Schematic PDF generated successfully."
+
+      # Step 5: Generate Gerber files
+      - name: Generate Gerber files
+        run: |
+          # Ensure the 'fab' directory exists
+          mkdir -p fab
+
+          # Generate the Gerber files
+          kicad-cli pcb export gerbers --no-protel-ext -o fab/ "${{ env.pcb_file }}"
+          kicad-cli pcb export drill -o fab/ "${{ env.pcb_file }}"
+
+          # Check if any Gerber files were generated in the 'fab' directory
+          if [ -z "$(ls fab/*.gbr 2>/dev/null)" ]; then
+            echo "Error: Gerber files were not generated."
+            exit 1
+          fi
+          echo "Gerber files generated successfully."
+
+      # Step 6: Zip Gerber files if they exist
+      - name: Zip Gerber files
+        run: |
+          # Create a zip file with the project name
+          zip -r "fab/${{ env.base_name }}-gerbers.zip" fab/*.gbr fab/*.drl
+          echo "Gerber files have been zipped into ${{ env.base_name }}gerbers.zip"
+
+      # Step 7: Configure Git user
+      - name: Configure Git user
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+      
+      # Step 8: Commit and push the generated PDF and Gerber files
+      - name: Commit and push the generated PDF and Gerber files
+        run: |
+          # Add the newly generated PDF and Gerber files (including the zip) to Git
+          git add "doc/${{ env.base_name }}-schematic.pdf"
+          git add "fab/*"
+          
+          # Check if there are changes to commit
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          
+          # Commit if the files were added
+          git commit -m "Add generated schematic PDF and Gerber files"
+          
+          # Push the commit
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
