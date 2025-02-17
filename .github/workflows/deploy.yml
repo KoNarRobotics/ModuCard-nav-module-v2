@@ -4,12 +4,10 @@ on:
   workflow_dispatch:  # Manually trigger the workflow
   push:
     branches:
-      - master  # Trigger on push to master branch
-      - main    # Trigger on push to main branch
-  pull_request:
-    branches:
-      - master  # Trigger on pull requests targeting master branch
-      - main    # Trigger on pull requests targeting main branch
+      [master, main]
+  # pull_request:
+  #   branches:
+  #     [master, main]
 
 permissions:
   contents: write  # Ensure write access for the repository contents
@@ -17,13 +15,14 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./
 
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Step 2: Find project, schematic, and PCB files
       - name: Find project, schematic, and PCB files
         id: find_files
         run: |
@@ -61,14 +60,12 @@ jobs:
           echo "schematic_file=$schematic_file" >> $GITHUB_ENV
           echo "pcb_file=$pcb_file" >> $GITHUB_ENV
 
-      # Step 3: Install KiCad V8.0.0 (or adjust version if necessary)
       - name: Install KiCad V8.0.0 (or adjust version if necessary)
         run: |
           sudo add-apt-repository ppa:kicad/kicad-8.0-releases -y
           sudo apt update
           sudo apt install -y kicad
 
-      # Step 4: Generate the schematic PDF
       - name: Generate schematic PDF
         run: |
           # Ensure the 'doc' directory exists
@@ -84,7 +81,6 @@ jobs:
           fi
           echo "Schematic PDF generated successfully."
 
-      # Step 5: Generate Gerber files
       - name: Generate Gerber files
         run: |
           # Ensure the 'fab' directory exists
@@ -101,25 +97,37 @@ jobs:
           fi
           echo "Gerber files generated successfully."
 
-      # Step 6: Zip Gerber files if they exist
-      - name: Zip Gerber files
-        run: |
-          # Create a zip file with the project name
-          zip -r "fab/${{ env.base_name }}-gerbers.zip" fab/*.gbr fab/*.drl
-          echo "Gerber files have been zipped into ${{ env.base_name }}gerbers.zip"
+      # - name: Zip Gerber files
+      #   run: |
+      #     # Create a zip file with the project name
+      #     zip -r "fab/${{ env.base_name }}-gerbers.zip" fab/*.gbr fab/*.drl
+      #     echo "Gerber files have been zipped into ${{ env.base_name }}gerbers.zip"
 
-      # Step 7: Configure Git user
+      - name: List Generated Files
+        run: |
+          echo "Contents of doc/:"
+          ls -l doc/
+          echo "Contents of fab/:"
+          ls -l fab/
+
       - name: Configure Git user
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
       
-      # Step 8: Commit and push the generated PDF and Gerber files
       - name: Commit and push the generated PDF and Gerber files
         run: |
-          # Add the newly generated PDF and Gerber files (including the zip) to Git
+          # Add the schematic PDF
           git add "doc/${{ env.base_name }}-schematic.pdf"
-          git add "fab/*"
+
+          # Add the Gerber files based on patterns
+          git add fab/*_Cu.gbr
+          git add fab/*_Paste.gbr
+          git add fab/*_Silkscreen.gbr
+          git add fab/*_Mask.gbr
+          git add fab/*Edge_Cuts.gbr
+          git add fab/*PTH-drl.gbr
+          git add fab/*.drl
           
           # Check if there are changes to commit
           if git diff --cached --quiet; then
