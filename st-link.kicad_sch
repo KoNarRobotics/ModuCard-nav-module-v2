@@ -121,25 +121,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Y"
-				(at 3.175 5.08 0)
+			(property "Reference" "Y700"
+				(at 0 8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Crystal_GND24"
-				(at 3.175 3.175 0)
+			(property "Value" "8 MHz"
+				(at 0 6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "PCM_JLCPCB:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -234,18 +232,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 2.032 -1.27) (xy 2.032 1.27)
 					)
 					(stroke
@@ -313,8 +299,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
-					(length 1.27)
+					(at 0 -5.08 90)
+					(length 1.27) hide
 					(name "2"
 						(effects
 							(font
@@ -5070,12 +5056,6 @@
 		(uuid "3cc2958c-2e7f-4ddd-92b9-873a484bc4aa")
 	)
 	(junction
-		(at 30.48 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "445b8e66-dd02-497c-97e5-0c728c875ff7")
-	)
-	(junction
 		(at 245.11 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5508,16 +5488,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 90.17) (xy 30.48 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "384f57f8-2857-4cbc-9343-27117507afec")
-	)
-	(wire
-		(pts
 			(xy 114.3 88.9) (xy 127 88.9)
 		)
 		(stroke
@@ -5698,7 +5668,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 90.17) (xy 30.48 92.71)
+			(xy 41.91 90.17) (xy 41.91 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6208,16 +6178,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 80.01) (xy 41.91 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0813382-007c-484e-b2ec-80c8ad8c28fc")
-	)
-	(wire
-		(pts
 			(xy 77.47 44.45) (xy 77.47 45.72)
 		)
 		(stroke
@@ -6645,16 +6605,6 @@
 			(type default)
 		)
 		(uuid "fb0009e7-14c9-46ac-a3e7-66089cd48f67")
-	)
-	(wire
-		(pts
-			(xy 30.48 90.17) (xy 30.48 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb5530c5-5684-4a16-bc74-1c99ea995fd0")
 	)
 	(polyline
 		(pts
@@ -7222,21 +7172,21 @@
 		(dnp no)
 		(uuid "09ba7056-01cf-4f29-96a8-d0b69d861d41")
 		(property "Reference" "C707"
-			(at 37.465 92.7099 0)
+			(at 33.528 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "33pF"
-			(at 37.465 95.25 0)
+			(at 33.528 95.25 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0402"
@@ -7357,12 +7307,12 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 37.465 97.79 0)
+			(at 33.528 97.79 0)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "±5%"
@@ -7956,7 +7906,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 92.71 0)
+		(at 41.91 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7964,7 +7914,7 @@
 		(dnp no)
 		(uuid "1908b9b4-68eb-4957-971b-31a4e1db1eb3")
 		(property "Reference" "#PWR0331"
-			(at 30.48 99.06 0)
+			(at 41.91 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7973,7 +7923,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 96.52 0)
+			(at 41.91 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7981,7 +7931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 92.71 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7990,7 +7940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 92.71 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7999,7 +7949,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 92.71 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13040,7 +12990,7 @@
 		(dnp no)
 		(uuid "abbbfe59-6aa5-40ad-8e45-d23dfeaf54ed")
 		(property "Reference" "C708"
-			(at 50.165 92.7099 0)
+			(at 50.292 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13049,7 +12999,7 @@
 			)
 		)
 		(property "Value" "33pF"
-			(at 50.165 95.25 0)
+			(at 50.292 95.25 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -13175,7 +13125,7 @@
 			)
 		)
 		(property "Voltage Rated" "50V"
-			(at 50.165 97.79 0)
+			(at 50.292 97.79 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -15059,7 +15009,7 @@
 		(dnp no)
 		(uuid "ee4e5791-5a2e-439c-bccf-8874379e939b")
 		(property "Reference" "Y700"
-			(at 41.91 76.708 0)
+			(at 41.91 78.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15067,7 +15017,7 @@
 			)
 		)
 		(property "Value" "8 MHz"
-			(at 41.91 78.486 0)
+			(at 41.91 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15115,6 +15065,10 @@
 		)
 		(instances
 			(project ""
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8"
+					(reference "Y700")
+					(unit 1)
+				)
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0"
 					(reference "Y700")
 					(unit 1)
