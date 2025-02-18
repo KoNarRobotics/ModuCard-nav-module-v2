@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ModuCard base module")
-		(date "2024-12-23")
+		(date "2025-02-18")
 		(rev "1.0.0")
 		(company "KoNaR")
 		(comment 1 "Base project authors: Dominik Pluta, Artem Horiunov")
@@ -4792,7 +4792,7 @@
 	)
 	(text "Target I_{LED} = 5mA"
 		(exclude_from_sim no)
-		(at 260.858 106.172 0)
+		(at 202.946 143.256 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4858,7 +4858,7 @@
 		)
 		(uuid "f7f49b20-5d32-49c7-9d14-94c1adc6c6d3")
 	)
-	(label "3V3_UNPROTEC"
+	(label "+3V3_UNPROTEC"
 		(at 132.08 113.03 0)
 		(effects
 			(font
@@ -4868,7 +4868,7 @@
 		)
 		(uuid "10f312df-d0af-448f-a047-9762287cbaa7")
 	)
-	(label "5V_UNPROTEC"
+	(label "+5V_UNPROTEC"
 		(at 147.32 59.69 0)
 		(effects
 			(font

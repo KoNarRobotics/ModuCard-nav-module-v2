@@ -505,12 +505,12 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR",
-        "pcb_color": "rgb(255, 153, 0)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 0)",
+        "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.3,
         "via_diameter": 0.5,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 10
       },
       {
         "bus_width": 12,
@@ -571,7 +571,11 @@
       },
       {
         "netclass": "PWR",
-        "pattern": "+*V*"
+        "pattern": "*+*V*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "*SW_*V*"
       }
     ]
   },
