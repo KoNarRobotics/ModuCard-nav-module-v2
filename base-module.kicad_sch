@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ModuCard base module")
-		(date "2024-12-23")
+		(date "2025-02-18")
 		(rev "1.0.0")
 		(company "KoNaR")
 		(comment 1 "Base project authors: Dominik Pluta, Artem Horiunov")
@@ -40,7 +40,7 @@
 	)
 	(bus
 		(pts
-			(xy 106.68 114.3) (xy 123.19 114.3)
+			(xy 106.68 123.19) (xy 123.19 123.19)
 		)
 		(stroke
 			(width 0)
@@ -60,7 +60,7 @@
 	)
 	(bus
 		(pts
-			(xy 123.19 53.34) (xy 116.84 53.34)
+			(xy 123.19 55.88) (xy 116.84 55.88)
 		)
 		(stroke
 			(width 0)
@@ -70,17 +70,17 @@
 	)
 	(bus
 		(pts
-			(xy 106.68 46.99) (xy 123.19 46.99)
+			(xy 106.68 49.53) (xy 123.19 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a76b16b-fd09-4b40-9715-921b33f4a267")
+		(uuid "42069d11-2d8b-4c0c-a1bb-3e4cb654db23")
 	)
 	(bus
 		(pts
-			(xy 148.59 128.27) (xy 161.29 128.27)
+			(xy 148.59 137.16) (xy 161.29 137.16)
 		)
 		(stroke
 			(width 0)
@@ -90,13 +90,13 @@
 	)
 	(bus
 		(pts
-			(xy 205.74 85.09) (xy 217.17 85.09)
+			(xy 148.59 107.95) (xy 161.29 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b75e62e9-86a7-4e1f-a8bc-f2a6ae72f7b1")
+		(uuid "bf0de6b0-0fc9-4b0f-912e-193053f69f46")
 	)
 	(bus
 		(pts
@@ -110,7 +110,7 @@
 	)
 	(bus
 		(pts
-			(xy 106.68 128.27) (xy 123.19 128.27)
+			(xy 106.68 137.16) (xy 123.19 137.16)
 		)
 		(stroke
 			(width 0)
@@ -120,7 +120,7 @@
 	)
 	(bus
 		(pts
-			(xy 116.84 53.34) (xy 116.84 67.31)
+			(xy 116.84 55.88) (xy 116.84 67.31)
 		)
 		(stroke
 			(width 0)
@@ -150,7 +150,7 @@
 	)
 	(bus
 		(pts
-			(xy 148.59 114.3) (xy 161.29 114.3)
+			(xy 148.59 123.19) (xy 161.29 123.19)
 		)
 		(stroke
 			(width 0)
@@ -169,7 +169,7 @@
 		(uuid "f1a21ac5-05c7-4b93-b021-879868b83e38")
 	)
 	(sheet
-		(at 123.19 124.46)
+		(at 123.19 133.35)
 		(size 25.4 7.62)
 		(stroke
 			(width 0.1524)
@@ -180,7 +180,7 @@
 		)
 		(uuid "0158e235-e8c1-4e7e-a900-a22642d17049")
 		(property "Sheetname" "CAN transceiver 2"
-			(at 123.19 123.7484 0)
+			(at 123.19 132.6384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -189,7 +189,7 @@
 			)
 		)
 		(property "Sheetfile" "can-transceiver.kicad_sch"
-			(at 123.444 132.842 0)
+			(at 123.444 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -198,7 +198,7 @@
 			)
 		)
 		(pin "CAN{RX TX}" input
-			(at 148.59 128.27 0)
+			(at 148.59 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -208,7 +208,7 @@
 			(uuid "4671fdb0-d0e0-441d-8d1d-4860636d85e9")
 		)
 		(pin "CAN{CAN}" bidirectional
-			(at 123.19 128.27 180)
+			(at 123.19 137.16 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -226,7 +226,7 @@
 		)
 	)
 	(sheet
-		(at 81.28 144.78)
+		(at 81.28 147.32)
 		(size 25.4 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -238,7 +238,7 @@
 		)
 		(uuid "3f372eb1-53a4-4b00-8846-6751dd401eeb")
 		(property "Sheetname" "Power"
-			(at 81.28 144.0684 0)
+			(at 81.28 146.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -247,7 +247,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 81.28 155.5246 0)
+			(at 81.28 158.0646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -264,7 +264,7 @@
 		)
 	)
 	(sheet
-		(at 123.19 110.49)
+		(at 123.19 119.38)
 		(size 25.4 7.62)
 		(stroke
 			(width 0.1524)
@@ -275,7 +275,7 @@
 		)
 		(uuid "3f4a4c31-63d6-4264-8452-81b45fffd897")
 		(property "Sheetname" "CAN transceiver 1"
-			(at 123.19 109.7784 0)
+			(at 123.19 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -284,7 +284,7 @@
 			)
 		)
 		(property "Sheetfile" "can-transceiver.kicad_sch"
-			(at 122.936 118.872 0)
+			(at 122.936 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -293,7 +293,7 @@
 			)
 		)
 		(pin "CAN{RX TX}" input
-			(at 148.59 114.3 0)
+			(at 148.59 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -303,7 +303,7 @@
 			(uuid "2ad324a7-4e76-4def-a2aa-f7156431611c")
 		)
 		(pin "CAN{CAN}" bidirectional
-			(at 123.19 114.3 180)
+			(at 123.19 123.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -321,7 +321,7 @@
 		)
 	)
 	(sheet
-		(at 123.19 41.91)
+		(at 123.19 44.45)
 		(size 25.4 13.97)
 		(fields_autoplaced yes)
 		(stroke
@@ -333,7 +333,7 @@
 		)
 		(uuid "8fd5ae83-0658-4178-9e81-18085647e2bb")
 		(property "Sheetname" "USB"
-			(at 123.19 41.1984 0)
+			(at 123.19 43.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,7 +342,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 123.19 56.4646 0)
+			(at 123.19 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -351,7 +351,7 @@
 			)
 		)
 		(pin "BACKPLANE{USB}" input
-			(at 123.19 46.99 180)
+			(at 123.19 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -361,7 +361,7 @@
 			(uuid "49cd1327-0574-4555-b98d-686ad06add1f")
 		)
 		(pin "EXTUSB{USB}" output
-			(at 123.19 53.34 180)
+			(at 123.19 55.88 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -409,17 +409,17 @@
 			)
 		)
 		(pin "QSPI1{QSPI}" bidirectional
-			(at 205.74 85.09 0)
+			(at 161.29 107.95 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 			(uuid "0a967f7e-bc5a-4548-8588-a3f32ad6b6f8")
 		)
 		(pin "CAN2{RX TX}" input
-			(at 161.29 128.27 180)
+			(at 161.29 137.16 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -429,7 +429,7 @@
 			(uuid "8c8ec780-1712-44db-9376-b03ba592cd9d")
 		)
 		(pin "CAN1{RX TX}" input
-			(at 161.29 114.3 180)
+			(at 161.29 123.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -467,8 +467,8 @@
 		)
 	)
 	(sheet
-		(at 123.19 63.5)
-		(size 25.4 16.51)
+		(at 123.19 64.77)
+		(size 25.4 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -479,7 +479,7 @@
 		)
 		(uuid "c4e62f69-aed8-45c4-bc74-414bd9b2dcad")
 		(property "Sheetname" "USB-hub"
-			(at 123.19 62.7884 0)
+			(at 123.19 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -535,8 +535,8 @@
 		)
 	)
 	(sheet
-		(at 217.17 80.01)
-		(size 27.94 10.16)
+		(at 123.19 104.14)
+		(size 25.4 7.62)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -547,7 +547,7 @@
 		)
 		(uuid "e8ac371f-5104-4cae-bf76-5dce1f5864c3")
 		(property "Sheetname" "QSPI FLASH"
-			(at 217.17 79.2984 0)
+			(at 123.19 103.4284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,7 +556,7 @@
 			)
 		)
 		(property "Sheetfile" "QSPI FLASH.kicad_sch"
-			(at 217.17 90.7546 0)
+			(at 123.19 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -565,12 +565,12 @@
 			)
 		)
 		(pin "QSPI{QSPI}" bidirectional
-			(at 217.17 85.09 180)
+			(at 148.59 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "443041a0-7600-4d4d-a6ad-970474c79d47")
 		)
@@ -642,7 +642,7 @@
 	)
 	(sheet
 		(at 81.28 41.91)
-		(size 25.4 96.52)
+		(size 25.4 99.06)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -662,7 +662,7 @@
 			)
 		)
 		(property "Sheetfile" "backplane.kicad_sch"
-			(at 81.28 139.0146 0)
+			(at 81.28 141.5546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -701,7 +701,7 @@
 			(uuid "78f6447e-cc35-4bff-9181-e28e763cd973")
 		)
 		(pin "CAN1{CAN}" bidirectional
-			(at 106.68 114.3 0)
+			(at 106.68 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -711,7 +711,7 @@
 			(uuid "f5cc3410-a9f9-4327-97b1-b02ad5c607a0")
 		)
 		(pin "CAN2{CAN}" bidirectional
-			(at 106.68 128.27 0)
+			(at 106.68 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,7 +721,7 @@
 			(uuid "1bb521b1-9157-430e-bc39-7309cc0c519b")
 		)
 		(pin "BACKPLANE{USB}" output
-			(at 106.68 46.99 0)
+			(at 106.68 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

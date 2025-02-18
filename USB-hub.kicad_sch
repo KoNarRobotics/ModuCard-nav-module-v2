@@ -5,10 +5,12 @@
 	(uuid "deeb6121-2978-43bf-9112-30b98d6106ee")
 	(paper "A4")
 	(title_block
-		(date "2024-12-23")
+		(title "ModuCard base module")
+		(date "2025-02-18")
 		(rev "1.0.0")
 		(company "KoNaR")
 		(comment 1 "Base project authors: Dominik Pluta, Artem Horiunov")
+		(comment 2 "Project author: <author>")
 	)
 	(lib_symbols
 		(symbol "CH334P:CH334P"
@@ -2520,8 +2522,8 @@
 		(uuid "f3257834-e423-458b-892e-4a0f2789caa4")
 	)
 	(bus_entry
-		(at 57.15 83.82)
-		(size 2.54 2.54)
+		(at 59.69 86.36)
+		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -2539,7 +2541,7 @@
 	)
 	(bus_entry
 		(at 59.69 95.25)
-		(size -2.54 -2.54)
+		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -2548,7 +2550,7 @@
 	)
 	(bus_entry
 		(at 59.69 97.79)
-		(size -2.54 -2.54)
+		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -2565,8 +2567,8 @@
 		(uuid "d04161f8-344e-4580-bfdc-39a1095d0277")
 	)
 	(bus_entry
-		(at 57.15 86.36)
-		(size 2.54 2.54)
+		(at 59.69 88.9)
+		(size -2.54 2.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -2643,6 +2645,16 @@
 		)
 		(uuid "1503d975-2fb0-4b11-bec6-c5d9c4d1a285")
 	)
+	(bus
+		(pts
+			(xy 57.15 91.44) (xy 57.15 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1772ffb4-c117-4bb1-896f-80d471e855ed")
+	)
 	(wire
 		(pts
 			(xy 168.91 72.39) (xy 172.72 72.39)
@@ -2663,6 +2675,16 @@
 		)
 		(uuid "219833b5-7e58-42e6-8696-1c25a1cfadad")
 	)
+	(bus
+		(pts
+			(xy 53.34 95.25) (xy 55.88 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30872b32-0fc1-4aea-a49c-9b38dcded60a")
+	)
 	(wire
 		(pts
 			(xy 162.56 46.99) (xy 162.56 48.26)
@@ -2672,6 +2694,16 @@
 			(type default)
 		)
 		(uuid "321ff072-3e9a-4bb9-83d4-e79a4e1f40b9")
+	)
+	(bus
+		(pts
+			(xy 57.15 88.9) (xy 57.15 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332a1e67-808e-4e8c-9a8f-87c2fef44bbc")
 	)
 	(wire
 		(pts
@@ -2692,16 +2724,6 @@
 			(type default)
 		)
 		(uuid "3c9a5c87-5e83-40f4-b5b7-258c3d3011f7")
-	)
-	(bus
-		(pts
-			(xy 171.45 97.79) (xy 171.45 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3db3097c-bbc0-4dae-b794-4a41081787ba")
 	)
 	(wire
 		(pts
@@ -2725,13 +2747,33 @@
 	)
 	(bus
 		(pts
-			(xy 54.61 81.28) (xy 57.15 81.28)
+			(xy 57.15 100.33) (xy 57.15 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4afc2f96-7c28-4129-9701-4fcbabc9be79")
+		(uuid "45751480-1ef4-40e2-99db-890498a3d83b")
+	)
+	(bus
+		(pts
+			(xy 172.72 99.06) (xy 171.45 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c18f9e-83bb-414d-bfa3-b83937b66eea")
+	)
+	(bus
+		(pts
+			(xy 57.15 97.79) (xy 57.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2736e5-d372-4d16-9183-f39d5c07911b")
 	)
 	(wire
 		(pts
@@ -2775,13 +2817,13 @@
 	)
 	(bus
 		(pts
-			(xy 57.15 90.17) (xy 57.15 92.71)
+			(xy 53.34 104.14) (xy 55.88 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b5f99b0-7965-4134-915f-c0edc00a96cb")
+		(uuid "6962c0b6-ffd8-4fb4-b786-54f82362a058")
 	)
 	(wire
 		(pts
@@ -2792,16 +2834,6 @@
 			(type default)
 		)
 		(uuid "6daf279a-57a0-48d4-8fad-62612e5416e7")
-	)
-	(bus
-		(pts
-			(xy 171.45 97.79) (xy 173.99 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73fef6fd-c294-4468-941f-dd4ac1b931a9")
 	)
 	(wire
 		(pts
@@ -2833,6 +2865,16 @@
 		)
 		(uuid "9436b414-b537-4936-8d63-c191e0c8a0f4")
 	)
+	(bus
+		(pts
+			(xy 57.15 93.98) (xy 55.88 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d77227-5ad9-4b4b-930b-64fccbe2b556")
+	)
 	(wire
 		(pts
 			(xy 100.33 88.9) (xy 119.38 88.9)
@@ -2862,16 +2904,6 @@
 			(type default)
 		)
 		(uuid "a06cdc4e-630f-48b0-8050-fb3b54175ef6")
-	)
-	(bus
-		(pts
-			(xy 57.15 83.82) (xy 57.15 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a09b9254-b44c-4c0a-a414-b22ba1fa5ccf")
 	)
 	(wire
 		(pts
@@ -2913,6 +2945,16 @@
 		)
 		(uuid "b1e206be-d12f-482f-82c0-31d669a6fbb4")
 	)
+	(bus
+		(pts
+			(xy 172.72 99.06) (xy 175.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b26e8b2e-e1bf-4c28-b129-f62031a5052f")
+	)
 	(wire
 		(pts
 			(xy 143.51 49.53) (xy 143.51 48.26)
@@ -2942,6 +2984,16 @@
 			(type default)
 		)
 		(uuid "c777f645-2a8b-4d77-a537-b7f91cabc460")
+	)
+	(bus
+		(pts
+			(xy 57.15 102.87) (xy 55.88 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d48e8c21-6f11-4dd1-b1c9-890cfe4d2ec0")
 	)
 	(wire
 		(pts
@@ -2993,16 +3045,6 @@
 		)
 		(uuid "e5a0131a-f49a-467b-a0b7-98f517423639")
 	)
-	(bus
-		(pts
-			(xy 57.15 92.71) (xy 57.15 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea16980b-257f-4844-9853-8aead5faea6a")
-	)
 	(wire
 		(pts
 			(xy 177.8 67.31) (xy 177.8 68.58)
@@ -3025,13 +3067,13 @@
 	)
 	(bus
 		(pts
-			(xy 57.15 81.28) (xy 57.15 83.82)
+			(xy 171.45 95.25) (xy 171.45 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3991995-db98-4975-b44f-e5292f36ca40")
+		(uuid "f3ca21fd-54b9-4c65-b6f3-55981ec9d82d")
 	)
 	(wire
 		(pts
@@ -3052,16 +3094,6 @@
 			(type default)
 		)
 		(uuid "f7db149f-dd40-43c3-b81d-198149d7d776")
-	)
-	(bus
-		(pts
-			(xy 57.15 90.17) (xy 54.61 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbb8d56a-1cf7-4a01-bf50-ef600b548e5e")
 	)
 	(text "USB HUB TO MCU AND STLINK"
 		(exclude_from_sim no)
@@ -3181,7 +3213,7 @@
 	)
 	(hierarchical_label "USBIN1{USB}"
 		(shape input)
-		(at 173.99 97.79 0)
+		(at 175.26 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3192,7 +3224,7 @@
 	)
 	(hierarchical_label "USBOUT1{USB}"
 		(shape input)
-		(at 54.61 90.17 180)
+		(at 53.34 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3203,7 +3235,7 @@
 	)
 	(hierarchical_label "USB_MCU{USB}"
 		(shape input)
-		(at 54.61 81.28 180)
+		(at 53.34 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
