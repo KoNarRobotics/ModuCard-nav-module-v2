@@ -13037,7 +13037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120Ω"
+		(property "Value" "470Ω"
 			(at 0 0.2 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13062,7 +13062,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF4700TCE_C25117.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13075,7 +13075,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 120Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 470Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13088,7 +13088,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25079"
+		(property "LCSC" "C25117"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13101,7 +13101,7 @@
 				)
 			)
 		)
-		(property "Stock" "456004"
+		(property "Stock" "703987"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13205,7 +13205,7 @@
 				)
 			)
 		)
-		(property "Part" "0402WGF1200TCE"
+		(property "Part" "0402WGF4700TCE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13218,7 +13218,7 @@
 				)
 			)
 		)
-		(property "Resistance" "120Ω"
+		(property "Resistance" "470Ω"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13310,7 +13310,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/f536fb7f-861e-4e7a-8d0d-572e0f057569")
+		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/c0ed5c8d-f6b9-47cd-b5e7-33651cacbae6")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
 		(solder_mask_margin 0.038)
@@ -39353,7 +39353,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120Ω"
+		(property "Value" "220Ω"
 			(at 0 0.2 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -39378,7 +39378,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39391,7 +39391,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 120Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 220Ω 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39404,7 +39404,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25079"
+		(property "LCSC" "C25091"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39417,7 +39417,7 @@
 				)
 			)
 		)
-		(property "Stock" "456004"
+		(property "Stock" "735848"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39521,7 +39521,7 @@
 				)
 			)
 		)
-		(property "Part" "0402WGF1200TCE"
+		(property "Part" "0402WGF2200TCE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39534,7 +39534,7 @@
 				)
 			)
 		)
-		(property "Resistance" "120Ω"
+		(property "Resistance" "220Ω"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39626,7 +39626,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/4697ad72-9ece-4ba3-8984-72c0dfa68d19")
+		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/d49d77d3-9ae1-4a1c-9e4d-5d521ec08113")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
 		(solder_mask_margin 0.038)
@@ -43311,7 +43311,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "120Ω"
+		(property "Value" "2.2kΩ"
 			(at 0 0.2 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -43336,7 +43336,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF2201TCE_C25879.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43349,7 +43349,7 @@
 				)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 120Ω 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 2.2kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43362,7 +43362,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25079"
+		(property "LCSC" "C25879"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43375,7 +43375,7 @@
 				)
 			)
 		)
-		(property "Stock" "456004"
+		(property "Stock" "750885"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43479,7 +43479,7 @@
 				)
 			)
 		)
-		(property "Part" "0402WGF1200TCE"
+		(property "Part" "0402WGF2201TCE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43492,7 +43492,7 @@
 				)
 			)
 		)
-		(property "Resistance" "120Ω"
+		(property "Resistance" "2.2kΩ"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43584,7 +43584,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/18973919-94bc-4d1d-8683-337201acc6e3")
+		(path "/3f372eb1-53a4-4b00-8846-6751dd401eeb/fad176b0-2852-4448-b82c-641cef9722b3")
 		(sheetname "Power")
 		(sheetfile "power.kicad_sch")
 		(solder_mask_margin 0.038)
