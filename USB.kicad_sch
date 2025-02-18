@@ -1691,59 +1691,28 @@
 				)
 			)
 		)
-		(symbol "Power_Protection:IP4234CZ6"
-			(pin_names
-				(offset 0)
-			)
+		(symbol "PESD5V0S2BT:PESD5V0S2BT"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -6.35 8.89 0)
+				(at -0.508 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Value" "IP4234CZ6"
-				(at 2.794 8.89 0)
+			(property "Value" "PESD5V0S2BT"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SC-74-6_1.55x2.9mm_P0.95mm"
-				(at 0 -15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/IP4234CZ6.pdf"
-				(at 0 -20.066 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "ESD Protection, 2 channel, USB 2.0 to IEC 61000-4-2 level 4, 5.5V, SOT457 (SC-74-6)"
-				(at 0 -18.034 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "USB ESD protection "
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1752,7 +1721,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SC?74?6*P0.95mm*"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2501101716_HXY-MOSFET-PESD5V0S2BT_C5451656.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1761,21 +1730,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "IP4234CZ6_0_0"
-				(rectangle
-					(start -5.842 6.35)
-					(end 5.842 -6.35)
-					(stroke
-						(width 0)
-						(type default)
+			(property "Description" "11A 8V 8V Bidirectional 5V SOT-23 ESD and Surge Protection (TVS/ESD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(hide yes)
 				)
+			)
+			(symbol "PESD5V0S2BT_0_1"
 				(polyline
 					(pts
-						(xy -1.778 -6.35) (xy -1.778 6.35)
+						(xy -1.016 -2.54) (xy -4.064 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1787,7 +1754,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.778 6.35) (xy 1.778 -6.35)
+						(xy 4.064 -2.54) (xy 1.016 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -1797,77 +1764,105 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "IP4234CZ6_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
+				(polyline
+					(pts
+						(xy -4.064 -2.54) (xy -4.572 -3.048) (xy -4.064 -2.54)
+					)
 					(stroke
-						(width 0.254)
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -2.54) (xy -0.508 -2.032) (xy -1.016 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -2.54) (xy 0.508 -3.048) (xy 1.016 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 -2.54) (xy 4.572 -2.032) (xy 4.064 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 -5.08) (xy -2.54 -2.54) (xy -1.016 -5.08) (xy -4.064 -5.08)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(circle
-					(center -5.842 -2.54)
-					(radius 0.2794)
+				(polyline
+					(pts
+						(xy -4.064 0) (xy -2.54 -2.54) (xy -1.016 0) (xy -4.064 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -1.778 -6.35)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -1.778 -2.54)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -1.778 6.35)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -6.35)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type background)
 					)
 				)
 				(polyline
 					(pts
-						(xy -7.62 -2.54) (xy -4.826 -2.54)
+						(xy 1.016 -5.08) (xy 2.54 -2.54) (xy 4.064 -5.08) (xy 1.016 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.54 -2.54) (xy 4.064 0) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 2.54) (xy 0 2.54) (xy -2.54 2.54) (xy -2.54 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -1875,467 +1870,60 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 2.54) (xy 2.794 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.334 -4.064) (xy -6.35 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.334 5.08) (xy -6.35 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -4.064) (xy -2.286 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -2.286 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0.508) (xy -0.508 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy 0 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.508) (xy -0.508 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -4.064) (xy 1.27 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 5.08) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -4.064) (xy 5.334 -4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 5.08) (xy 5.334 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy -2.794 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 4.826 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 6.35)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.778 -6.35)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.778 2.54)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.778 6.35)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 5.842 2.54)
-					(radius 0.2794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
-			(symbol "IP4234CZ6_1_1"
-				(rectangle
-					(start -4.826 -2.032)
-					(end -2.794 -3.048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.334 -5.08) (xy -6.35 -5.08) (xy -5.842 -4.064) (xy -5.334 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.334 4.064) (xy -6.35 4.064) (xy -5.842 5.08) (xy -5.334 4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -2.286 -5.08) (xy -1.778 -4.064) (xy -1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 4.064) (xy -2.286 4.064) (xy -1.778 5.08) (xy -1.27 4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -0.508) (xy -0.508 -0.508) (xy 0 0.508) (xy 0.508 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -5.08) (xy 1.27 -5.08) (xy 1.778 -4.064) (xy 2.286 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 4.064) (xy 1.27 4.064) (xy 1.778 5.08) (xy 2.286 4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -5.08) (xy 5.334 -5.08) (xy 5.842 -4.064) (xy 6.35 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 4.064) (xy 5.334 4.064) (xy 5.842 5.08) (xy 6.35 4.064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 2.794 3.048)
-					(end 4.826 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "PESD5V0S2BT_1_1"
 				(pin passive line
-					(at -10.16 -2.54 0)
+					(at -2.54 -7.62 90)
 					(length 2.54)
-					(name ""
+					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 90)
+					(at 2.54 -7.62 90)
 					(length 2.54)
-					(name "VN"
+					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 10.16 -2.54 180)
+					(at 0 5.08 270)
 					(length 2.54)
-					(name ""
+					(name "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
@@ -3256,6 +2844,18 @@
 		(uuid "00cca3aa-f1ee-4aea-a424-45634e0a2a80")
 	)
 	(junction
+		(at 123.19 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00fc2d78-5647-4b62-af53-f2b6911cfbba")
+	)
+	(junction
+		(at 118.11 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45c12588-5fe4-4138-83ed-33210276466f")
+	)
+	(junction
 		(at 58.42 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3335,16 +2935,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 86.36) (xy 137.16 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07adfe2a-e2dc-4f61-8e6d-251b691c920c")
-	)
-	(wire
-		(pts
 			(xy 149.86 85.09) (xy 168.91 85.09)
 		)
 		(stroke
@@ -3355,7 +2945,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 81.28) (xy 116.84 81.28)
+			(xy 81.28 81.28) (xy 123.19 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3392,6 +2982,16 @@
 			(type default)
 		)
 		(uuid "106cba78-f366-40fb-9644-e12968feab58")
+	)
+	(wire
+		(pts
+			(xy 123.19 81.28) (xy 123.19 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151a909a-8a8f-4dcf-b4fd-7341dc29dc1f")
 	)
 	(wire
 		(pts
@@ -3432,6 +3032,16 @@
 			(type default)
 		)
 		(uuid "22812b10-64f8-453e-b5a2-788e5962ba82")
+	)
+	(wire
+		(pts
+			(xy 118.11 86.36) (xy 146.05 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b1d86e-b4b4-401c-b87d-8da71616ad8d")
 	)
 	(wire
 		(pts
@@ -3635,17 +3245,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 81.28) (xy 137.16 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "711a75e1-d606-47da-9870-7f78f5a3beaf")
-	)
-	(wire
-		(pts
-			(xy 81.28 86.36) (xy 116.84 86.36)
+			(xy 81.28 86.36) (xy 118.11 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3685,7 +3285,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 93.98) (xy 127 96.52)
+			(xy 120.65 100.33) (xy 120.65 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3745,6 +3345,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 81.28) (xy 146.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc282e39-14b5-4d9d-acc4-b308fa913f86")
+	)
+	(wire
+		(pts
 			(xy 81.28 73.66) (xy 93.98 73.66)
 		)
 		(stroke
@@ -3782,6 +3392,16 @@
 			(type default)
 		)
 		(uuid "c9b30af2-44ea-43e1-931d-cf921fc2a289")
+	)
+	(wire
+		(pts
+			(xy 118.11 87.63) (xy 118.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2ca1b0-ef15-4d3d-a525-e5a042d4fcc7")
 	)
 	(bus
 		(pts
@@ -4695,7 +4315,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 96.52 0)
+		(at 120.65 102.87 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4704,7 +4324,7 @@
 		(dnp no)
 		(uuid "41d2e5a9-8c47-4f7f-a46f-0d3e5f83ff41")
 		(property "Reference" "#PWR0802"
-			(at 127 102.87 0)
+			(at 120.65 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,7 +4333,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 100.33 0)
+			(at 120.65 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4721,7 +4341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 96.52 0)
+			(at 120.65 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,7 +4350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 96.52 0)
+			(at 120.65 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,7 +4359,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 96.52 0)
+			(at 120.65 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4950,6 +4570,78 @@
 			(project ""
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
 					(reference "C801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PESD5V0S2BT:PESD5V0S2BT")
+		(at 120.65 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d060fad-6757-4198-9311-3dada510df94")
+		(property "Reference" "U802"
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD5V0S2BT"
+			(at 125.73 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 120.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2501101716_HXY-MOSFET-PESD5V0S2BT_C5451656.pdf"
+			(at 120.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "11A 8V 8V Bidirectional 5V SOT-23 ESD and Surge Protection (TVS/ESD)"
+			(at 120.65 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "83e1ef07-85d5-4580-8118-db77ed77a66d")
+		)
+		(pin "1"
+			(uuid "30502f2e-85e6-4414-82fc-4a29126e4ec7")
+		)
+		(pin "2"
+			(uuid "0a695282-d5f4-4ae9-9111-cc854596afcc")
+		)
+		(instances
+			(project ""
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
+					(reference "U802")
 					(unit 1)
 				)
 			)
@@ -5406,87 +5098,6 @@
 			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
 					(reference "#PWR0330")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:IP4234CZ6")
-		(at 127 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "806f1be2-846b-4814-a355-398d73ef3a33")
-		(property "Reference" "U800"
-			(at 130.81 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IP4234CZ6,115"
-			(at 130.81 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SC-74-6_1.55x2.9mm_P0.95mm"
-			(at 127 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/IP4234CZ6.pdf"
-			(at 127 103.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Protection, 2 channel, USB 2.0 to IEC 61000-4-2 level 4, 5.5V, SOT457 (SC-74-6)"
-			(at 127 101.854 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "477651f6-f42a-4361-b911-02ca52035fe8")
-		)
-		(pin "4"
-			(uuid "3e088e02-501a-49fe-8cb4-e1d01b4158ec")
-		)
-		(pin "5"
-			(uuid "35fec221-faf8-486f-bd20-e78e79e3a716")
-		)
-		(pin "1"
-			(uuid "d05d6c9a-32d6-4aef-af75-23a681e89487")
-		)
-		(pin "6"
-			(uuid "7d4c76fe-4927-45aa-8692-e77156dcc796")
-		)
-		(pin "2"
-			(uuid "7bb82f7c-a802-4945-920b-78ada65975ef")
-		)
-		(instances
-			(project "base-module"
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/8fd5ae83-0658-4178-9e81-18085647e2bb"
-					(reference "U800")
 					(unit 1)
 				)
 			)
