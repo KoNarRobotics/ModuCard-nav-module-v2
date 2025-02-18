@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "ModuCard base module")
-		(date "2024-12-23")
+		(date "2025-02-18")
 		(rev "1.0.0")
 		(company "KoNaR")
 		(comment 1 "Base project author: Dominik Pluta")
