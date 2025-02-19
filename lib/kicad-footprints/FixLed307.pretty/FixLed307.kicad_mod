@@ -205,7 +205,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "c2a9274e-6eb2-408c-9735-1a41c4c30d44")
 	)
 	(fp_arc
@@ -216,8 +216,19 @@
 			(width 0.05)
 			(type default)
 		)
-		(layer "F.CrtYd")
+		(layer "Dwgs.User")
 		(uuid "407d411a-9e04-46fb-a3be-0195b35e2f8d")
+	)
+	(fp_rect
+		(start -2.415082 -6.192045)
+		(end 2.384918 4.248554)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "a6a72a71-fa2d-4e47-bc67-ed26e2998e4c")
 	)
 	(fp_text user "-"
 		(at 1.1 -0.9 0)
