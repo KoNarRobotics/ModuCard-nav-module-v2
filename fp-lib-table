@@ -4,4 +4,5 @@
   (lib (name "MOLEX_2169890001")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-footprints/MOLEX_2169890001.pretty")(options "")(descr ""))
   (lib (name "FixLed307")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-footprints/FixLed307.pretty")(options "")(descr ""))
   (lib (name "kicad-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-footprints")(options "")(descr ""))
+  (lib (name "QRcode")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-footprints/QRcode.pretty")(options "")(descr ""))
 )
