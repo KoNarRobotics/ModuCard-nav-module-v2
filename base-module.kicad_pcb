@@ -792,6 +792,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -803,6 +804,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6343,6 +6345,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6354,6 +6357,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8830,6 +8834,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8841,6 +8846,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14750,6 +14756,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14761,6 +14768,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -31918,7 +31926,7 @@
 			(pintype "passive")
 			(uuid "693c1c1d-a24b-42df-bf41-ec16c72bcb51")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_DIN.3dshapes/DIN41612_R_3x32_Female_Horizontal_THT.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Connector_DIN.3dshapes/DIN41612_C_3x32_Male_Horizontal_THT.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37629,6 +37637,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -37640,6 +37649,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -39198,7 +39208,7 @@
 			(zone_connect 2)
 			(uuid "60668dd0-f8fa-41d5-8930-a2dec733eb2e")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/Texas_S-PVSON-N8.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -44915,7 +44925,7 @@
 			(zone_connect 2)
 			(uuid "cf1152f2-a71c-40dc-9663-67e432e631e8")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/HVSON-8-1EP_3x3mm_P0.65mm_EP1.6x2.4mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_SON.3dshapes/Texas_S-PVSON-N8.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -54376,6 +54386,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -54388,6 +54399,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
