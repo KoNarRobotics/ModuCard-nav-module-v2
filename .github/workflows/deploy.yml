@@ -80,6 +80,15 @@ jobs:
             exit 1
           fi
           echo "Schematic PDF generated successfully."
+          
+      - name: Get short commit SHA
+        id: get_sha
+        run: echo "short_sha=$(git rev-parse --short HEAD)" >> $GITHUB_ENV
+
+      - name: Replace BRD SHA placeholder in PCB file
+        run: |
+          sed -i "s/BRD SHA: %%%%%%%%/BRD SHA: ${{ env.short_sha }}/g" "${{ env.pcb_file }}"
+          echo "Updated PCB file with commit SHA: ${{ env.short_sha }}"
 
       - name: Generate Gerber files
         run: |
