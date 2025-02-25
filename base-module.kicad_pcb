@@ -19337,7 +19337,7 @@
 			(roundrect_rratio 0.25)
 			(net 198 "unconnected-(U400-PB0-Pad34)")
 			(pinfunction "PB0")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "e6f06837-8fcd-4765-89e2-cf42466fbe17")
 		)
 		(pad "35" smd roundrect
@@ -19347,7 +19347,7 @@
 			(roundrect_rratio 0.25)
 			(net 40 "unconnected-(U400-PB1-Pad35)")
 			(pinfunction "PB1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "e164d329-54be-4dcd-a72c-8d884c29c980")
 		)
 		(pad "36" smd roundrect
@@ -58910,7 +58910,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PROJECT  Rev. ${REVISION} \nTEMPLATE Rev. 1.0.0\n"
+	(gr_text "PROJECT  Rev. 1.0.0\nTEMPLATE Rev. 1.0.1\n"
 		(at 118.97 74.085001 0)
 		(layer "F.SilkS")
 		(uuid "6850c16c-88e7-4515-8901-a877ea6d447a")
