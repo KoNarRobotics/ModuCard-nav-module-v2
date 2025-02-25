@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "ModuCard base module")
-		(date "2025-02-18")
-		(rev "1.0.0")
+		(date "2025-02-25")
+		(rev "1.0.1")
 		(company "KoNaR")
 		(comment 1 "Base project author: Dominik Pluta Artem Horiunov")
 		(comment 2 "$Project Author$")
@@ -55841,6 +55841,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -55853,6 +55854,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
