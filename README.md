@@ -1,6 +1,8 @@
 # ModuCard Base Module
 
 This repository provides a template design for creating modules in the ModuCard system. Each module is designed to seamlessly interface with the [ModuCard backplane](https://github.com/KoNarRobotics/ModuCard-backplane), enabling a modular and expandable robotics platform.
+![obraz](https://github.com/user-attachments/assets/0c2b05e0-30f5-411c-bce9-ebabc41eedb3)
+
 
 ## Used tools:
 <img align="center" height="64" src="img/logos/KiCad.png">
