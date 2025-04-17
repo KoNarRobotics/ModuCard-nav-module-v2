@@ -59130,7 +59130,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "ESD SENSETIVE DEVICE"
+	(gr_text "ESD SENSITIVE DEVICE"
 		(at 102.57 127.885001 0)
 		(layer "F.SilkS")
 		(uuid "35f73f69-e7f3-46a3-9d0a-4f93198ea7e5")
