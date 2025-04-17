@@ -16257,7 +16257,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" "8MHz 20pF ±10ppm SMD3225 Crystals ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16265,6 +16265,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "3225-8.00-20-10-10/4B"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a3abe6b-18c4-42da-931a-1cb2c6eb04da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C7424755"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e62855ac-09e1-48bf-b085-a10755e918fb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -48326,7 +48352,7 @@
 		(descr "SOT-323, SC-70")
 		(tags "SOT-323 SC-70")
 		(property "Reference" "U401"
-			(at -0.05 -2.25 360)
+			(at -0.05 -2.25 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "229933ad-9dcc-404a-86f4-b483219f4de6")
@@ -48338,7 +48364,7 @@
 			)
 		)
 		(property "Value" "TPD2E2U06DCK"
-			(at -0.05 2.05 360)
+			(at -0.05 2.05 0)
 			(layer "F.Fab")
 			(uuid "a7bef94c-3255-4f15-9558-799cb7013760")
 			(effects
