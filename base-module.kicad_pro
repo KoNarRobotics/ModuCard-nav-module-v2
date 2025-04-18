@@ -363,19 +363,19 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_to_pin|1689100|1104900|c38aff77-dce4-4eaa-b161-df6554dc680e|096a1b71-643d-4915-abc7-88e600b2a9ce|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0",
+        "lib_symbol_issues|1066800|1041400|b7c2c80d-8ff4-412e-94ce-f764f8a3191c|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
       [
-        "pin_to_pin|2298700|952500|096a1b71-643d-4915-abc7-88e600b2a9ce|1475785b-0785-4b7a-a9d0-0077bd96e0b8|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8",
+        "pin_to_pin|2298700|952500|096a1b71-643d-4915-abc7-88e600b2a9ce|cd611031-12eb-4281-91d7-ddadb10329c8|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f372eb1-53a4-4b00-8846-6751dd401eeb",
         ""
-      ],
-      [
-        "pin_to_pin|2616200|965200|ba34f6cc-56e0-4ba7-bcbd-4c2040986dfd|1e7f1666-2d3e-42ec-963f-a6aa5f57cd1f|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ae074854-c02c-496b-964f-ecb8956e53f8",
-        "Need to setup conn matix"
       ],
       [
         "power_pin_not_driven|1727200|1016000|f04b3a18-d8e2-45f2-ac8e-5d76979bc21c|00000000-0000-0000-0000-000000000000|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/e8ac371f-5104-4cae-bf76-5dce1f5864c3|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/e8ac371f-5104-4cae-bf76-5dce1f5864c3|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|889000|1879600|0b7ef83b-8023-4b0b-b8f7-795a02ea36eb|00000000-0000-0000-0000-000000000000|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ff3476d7-2f10-4f79-9864-988601c7ce1b|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ff3476d7-2f10-4f79-9864-988601c7ce1b|",
         ""
       ]
     ],
@@ -390,7 +390,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0,
         0,
         0,
@@ -404,7 +404,7 @@
         1,
         0,
         0,
-        1,
+        0,
         0,
         2,
         2,
@@ -418,7 +418,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0,
         1,
         0,
@@ -432,25 +432,11 @@
         0,
         0,
         0,
-        1,
+        0,
         1,
         2,
         1,
         1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
         2
       ],
       [
@@ -468,17 +454,31 @@
         2
       ],
       [
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
         0,
         0,
-        1,
-        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         2
       ],
       [
@@ -516,7 +516,7 @@
         1,
         0,
         0,
-        1,
+        0,
         0,
         2,
         0,
@@ -530,7 +530,7 @@
         1,
         0,
         0,
-        1,
+        0,
         0,
         2,
         0,
@@ -630,7 +630,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.12,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.12,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -648,7 +647,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -666,7 +664,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.18,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -684,7 +681,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.15,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.18,
         "line_style": 0,
         "microvia_diameter": 0.3,
