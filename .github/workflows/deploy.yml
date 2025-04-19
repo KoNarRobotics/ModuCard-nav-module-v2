@@ -60,9 +60,9 @@ jobs:
           echo "schematic_file=$schematic_file" >> $GITHUB_ENV
           echo "pcb_file=$pcb_file" >> $GITHUB_ENV
 
-      - name: Install KiCad V8.0.0 (or adjust version if necessary)
+      - name: Install KiCad V9.0.x (or adjust version if necessary)
         run: |
-          sudo add-apt-repository ppa:kicad/kicad-8.0-releases -y
+          sudo add-apt-repository ppa:kicad/kicad-9.0-releases -y
           sudo apt update
           sudo apt install -y kicad
 
