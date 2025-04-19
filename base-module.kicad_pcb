@@ -26106,7 +26106,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.abracon.com/Oscillators/ASV.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407310922_YXC-Crystal-Oscillators-OT322512MJBA4SL_C725989.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26119,7 +26119,7 @@
 				)
 			)
 		)
-		(property "Description" "3.3V CMOS SMD Crystal Clock Oscillator, Abracon"
+		(property "Description" "1.8V~3.3V ±10ppm ±20ppm CMOS 12MHz SMD3225-4P Crystal Oscillators ROHS"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26128,6 +26128,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "OT322512MJBA4SL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ec68f7a-8540-4e7e-a150-300c0c660fd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C725989"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81a2fab8-9303-410f-a061-44ff51fc4ca8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
