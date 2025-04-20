@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -59,6 +59,34 @@
         }
       ],
       "drc_exclusions": [
+        [
+          "clearance|60970000|67625001|10deeb35-fd5a-4567-845b-9e5be9876ebf|d0b98b6c-c2a8-4600-aa2c-b31e7b114869",
+          ""
+        ],
+        [
+          "clearance|61200000|63415001|34d740ae-204d-440f-90be-cc67dd7fc464|d542f207-5f4f-4db1-be27-b49cd8b195b9",
+          ""
+        ],
+        [
+          "clearance|62070000|67625001|ff22edd5-efe9-40e0-8d71-3f98ae6dd35b|10deeb35-fd5a-4567-845b-9e5be9876ebf",
+          ""
+        ],
+        [
+          "clearance|63840000|64135001|349aa71c-422e-4d98-a922-4142db943fb9|6e430ca4-a40e-44a7-aa7f-41dc3d466f76",
+          ""
+        ],
+        [
+          "clearance|66470000|67625001|efadbf7a-5cd8-404e-99db-40567c9e8f10|446f2530-a945-465b-aeb8-4bfd228915bc",
+          ""
+        ],
+        [
+          "clearance|66707500|63102501|937c9bf5-ef18-4c93-85de-4888e2047b8c|e7d56c41-d9d5-4970-bd37-2609e800c5a2",
+          ""
+        ],
+        [
+          "clearance|67570000|67625001|263a8f21-9959-4e89-8c11-2995e854082b|efadbf7a-5cd8-404e-99db-40567c9e8f10",
+          ""
+        ],
         [
           "silk_overlap|127100000|120075000|2f947062-e8dd-449d-9510-a6bf6937e9e3|ef0d86bf-ab8f-413f-b855-dc344f7c63ac",
           ""
@@ -93,6 +121,50 @@
         ],
         [
           "silk_overlap|133950000|111725000|65915923-499b-425c-bd81-9f28822ebe0a|dda04a19-c587-4f5c-9900-4d71ee62f9e9",
+          ""
+        ],
+        [
+          "solder_mask_bridge|131800000|137712500|0a05080b-bf48-4087-a7b9-42ee5db52205|62aeea19-bd43-4a6f-b691-f27382918bdd",
+          ""
+        ],
+        [
+          "solder_mask_bridge|132137500|137487500|0a05080b-bf48-4087-a7b9-42ee5db52205|69f637e8-3abf-4340-a790-f6a4fbb14e40",
+          ""
+        ],
+        [
+          "solder_mask_bridge|132137500|138112500|62aeea19-bd43-4a6f-b691-f27382918bdd|0de45edd-2887-4ea1-b915-e8a25e3299cc",
+          ""
+        ],
+        [
+          "solder_mask_bridge|132362500|138850000|0de45edd-2887-4ea1-b915-e8a25e3299cc|3469f479-daa4-4bab-ab36-eb9e36f86d04",
+          ""
+        ],
+        [
+          "solder_mask_bridge|132463000|137487500|0a05080b-bf48-4087-a7b9-42ee5db52205|d61f311f-4265-4a3d-8901-d81d949dd68c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|132537500|137313000|d61f311f-4265-4a3d-8901-d81d949dd68c|69f637e8-3abf-4340-a790-f6a4fbb14e40",
+          ""
+        ],
+        [
+          "solder_mask_bridge|132762500|138850000|3469f479-daa4-4bab-ab36-eb9e36f86d04|e1090068-5fa6-47a7-96e3-8b96bc66fdae",
+          ""
+        ],
+        [
+          "solder_mask_bridge|132937000|137487500|e0073bc2-0b17-4fcf-b0b2-91578680802c|87299ffc-ab6a-4205-8e02-c816825d2346",
+          ""
+        ],
+        [
+          "solder_mask_bridge|132937000|137887500|960b204d-f182-41d2-8a50-c36f0a7d4574|e0073bc2-0b17-4fcf-b0b2-91578680802c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|132937500|137313000|87299ffc-ab6a-4205-8e02-c816825d2346|d61f311f-4265-4a3d-8901-d81d949dd68c",
+          ""
+        ],
+        [
+          "solder_mask_bridge|132937500|138287000|e1090068-5fa6-47a7-96e3-8b96bc66fdae|960b204d-f182-41d2-8a50-c36f0a7d4574",
           ""
         ]
       ],
@@ -528,7 +600,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "base-module.kicad_pro",
+    "filename": "ModuCard-navigation-module.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -561,7 +633,7 @@
         "microvia_drill": 0.1,
         "name": "CAN_120_DIFF",
         "pcb_color": "rgb(255, 81, 215)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
         "via_diameter": 0.5,
@@ -578,7 +650,7 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.3,
         "via_diameter": 0.5,
@@ -595,12 +667,26 @@
         "microvia_drill": 0.1,
         "name": "QSPI_50S_SE",
         "pcb_color": "rgb(55, 255, 75)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.18,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.48,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "RF_GPS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
       },
       {
         "bus_width": 12,
@@ -612,7 +698,7 @@
         "microvia_drill": 0.1,
         "name": "USB_90_DIFF",
         "pcb_color": "rgb(38, 8, 255)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.5,
@@ -649,6 +735,10 @@
       {
         "netclass": "PWR",
         "pattern": "*SW_*V*"
+      },
+      {
+        "netclass": "RF_GPS",
+        "pattern": "*RF*"
       }
     ]
   },
@@ -807,6 +897,18 @@
     [
       "e8ac371f-5104-4cae-bf76-5dce1f5864c3",
       "QSPI FLASH"
+    ],
+    [
+      "beb6e6f0-cd62-4562-acf0-f68f29c583f0",
+      "GPS-RTK"
+    ],
+    [
+      "a5195239-5b2f-4937-ac37-7de03d71aef0",
+      "IMU"
+    ],
+    [
+      "959481a0-7781-4df3-86da-eb6cb9855f71",
+      "Barometer"
     ]
   ],
   "text_variables": {

@@ -5,16 +5,22 @@
 	(uuid "090a8e41-87a8-4fb1-998b-60a2c0dc4cee")
 	(paper "A4")
 	(title_block
-		(title "ModuCard BM STM32H562VGT6")
-		(date "2025-04-18")
+		(title "ModuCard nav module")
+		(date "2025-04-20")
 		(rev "1.1.0")
 		(company "KoNaR")
 		(comment 1 "Base project authors: Dominik Pluta, Artem Horiunov")
-		(comment 2 "Project author: <author>")
+		(comment 2 "Project author: Patryk Dudziński")
 	)
 	(lib_symbols)
 	(bus_alias "CAN"
 		(members "+" "-")
+	)
+	(junction
+		(at 218.44 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99884d18-0a96-4271-a25b-026873879b48")
 	)
 	(no_connect
 		(at 81.28 82.55)
@@ -38,6 +44,16 @@
 		)
 		(uuid "088fd8c2-eebb-4af1-bbe0-793e15cd7b8f")
 	)
+	(wire
+		(pts
+			(xy 205.74 59.69) (xy 231.14 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad5fb31-b484-4944-a4c9-ed5594878cf5")
+	)
 	(bus
 		(pts
 			(xy 106.68 123.19) (xy 123.19 123.19)
@@ -50,7 +66,7 @@
 	)
 	(bus
 		(pts
-			(xy 148.59 72.39) (xy 161.29 72.39)
+			(xy 148.59 73.66) (xy 161.29 73.66)
 		)
 		(stroke
 			(width 0)
@@ -60,7 +76,77 @@
 	)
 	(bus
 		(pts
-			(xy 123.19 55.88) (xy 116.84 55.88)
+			(xy 219.71 34.29) (xy 219.71 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c3c26e1-9d25-4756-863f-df0a54305fc4")
+	)
+	(wire
+		(pts
+			(xy 205.74 69.85) (xy 231.14 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15357999-0ef2-45d8-9f8a-d35b4cdc4bd9")
+	)
+	(bus
+		(pts
+			(xy 106.68 48.26) (xy 123.19 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1782df55-de9c-47af-83a0-58361134576d")
+	)
+	(bus
+		(pts
+			(xy 218.44 109.22) (xy 231.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1938a18a-177a-4413-832b-8fbb8676545e")
+	)
+	(bus
+		(pts
+			(xy 148.59 69.85) (xy 154.94 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9829de-e084-4591-8657-4297594467d0")
+	)
+	(wire
+		(pts
+			(xy 205.74 64.77) (xy 231.14 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac286d4-d052-4923-a4e2-041b81320321")
+	)
+	(wire
+		(pts
+			(xy 205.74 67.31) (xy 231.14 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0f8124-242e-4872-a0bc-7a5ac06712ad")
+	)
+	(bus
+		(pts
+			(xy 123.19 54.61) (xy 116.84 54.61)
 		)
 		(stroke
 			(width 0)
@@ -68,15 +154,35 @@
 		)
 		(uuid "3922af01-4562-42b3-9ff2-97c27f6880db")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 106.68 49.53) (xy 123.19 49.53)
+			(xy 205.74 86.36) (xy 231.14 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "42069d11-2d8b-4c0c-a1bb-3e4cb654db23")
+		(uuid "4b24242c-9d68-4d48-8374-c809c68f72fa")
+	)
+	(wire
+		(pts
+			(xy 205.74 62.23) (xy 231.14 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e2c23fd-43ac-4fe3-99db-559c215f2969")
+	)
+	(bus
+		(pts
+			(xy 154.94 69.85) (xy 154.94 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c414a09-9291-4f62-86b7-6600ec6aaea0")
 	)
 	(bus
 		(pts
@@ -87,6 +193,56 @@
 			(type default)
 		)
 		(uuid "7ffc347e-25a7-4285-8492-119d5028459a")
+	)
+	(bus
+		(pts
+			(xy 205.74 54.61) (xy 231.14 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a3096f1-b6bf-44b2-a0da-12d1e20748cc")
+	)
+	(bus
+		(pts
+			(xy 218.44 91.44) (xy 218.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc5811b-0b89-4fb4-a09c-fc432679cd72")
+	)
+	(bus
+		(pts
+			(xy 154.94 34.29) (xy 219.71 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9985a126-2932-439d-8788-6401cadb96f5")
+	)
+	(wire
+		(pts
+			(xy 205.74 83.82) (xy 231.14 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0126824-3f36-496c-8287-d06e18efeb70")
+	)
+	(bus
+		(pts
+			(xy 205.74 91.44) (xy 218.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbdf4f91-d7af-4930-a425-f15aeee1f01d")
 	)
 	(bus
 		(pts
@@ -120,7 +276,17 @@
 	)
 	(bus
 		(pts
-			(xy 116.84 55.88) (xy 116.84 67.31)
+			(xy 205.74 57.15) (xy 231.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8a0456-6b22-4974-b138-e5a827c2eb2c")
+	)
+	(bus
+		(pts
+			(xy 116.84 54.61) (xy 116.84 67.31)
 		)
 		(stroke
 			(width 0)
@@ -150,6 +316,26 @@
 	)
 	(bus
 		(pts
+			(xy 218.44 91.44) (xy 231.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95cd4f2-0fc0-4b1e-8ba6-cf222d751a43")
+	)
+	(wire
+		(pts
+			(xy 205.74 88.9) (xy 231.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b8d3ec-4308-473c-ac20-41bb84544776")
+	)
+	(bus
+		(pts
 			(xy 148.59 123.19) (xy 161.29 123.19)
 		)
 		(stroke
@@ -167,6 +353,16 @@
 			(type default)
 		)
 		(uuid "f1a21ac5-05c7-4b93-b021-879868b83e38")
+	)
+	(bus
+		(pts
+			(xy 219.71 52.07) (xy 231.14 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f87eb799-a29c-4f53-873c-1c2a7f9e2a36")
 	)
 	(sheet
 		(at 123.19 133.35)
@@ -333,7 +529,7 @@
 		)
 	)
 	(sheet
-		(at 123.19 44.45)
+		(at 123.19 43.18)
 		(size 25.4 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -349,7 +545,7 @@
 		)
 		(uuid "8fd5ae83-0658-4178-9e81-18085647e2bb")
 		(property "Sheetname" "USB"
-			(at 123.19 43.7384 0)
+			(at 123.19 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -358,7 +554,7 @@
 			)
 		)
 		(property "Sheetfile" "USB.kicad_sch"
-			(at 123.19 59.0046 0)
+			(at 123.19 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -367,7 +563,7 @@
 			)
 		)
 		(pin "BACKPLANE{USB}" input
-			(at 123.19 49.53 180)
+			(at 123.19 48.26 180)
 			(uuid "49cd1327-0574-4555-b98d-686ad06add1f")
 			(effects
 				(font
@@ -377,7 +573,7 @@
 			)
 		)
 		(pin "EXTUSB{USB}" output
-			(at 123.19 55.88 180)
+			(at 123.19 54.61 180)
 			(uuid "c146d2d2-99d4-47de-b999-c91753c99574")
 			(effects
 				(font
@@ -390,6 +586,164 @@
 			(project "base-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 105.41)
+		(size 33.02 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "959481a0-7781-4df3-86da-eb6cb9855f71")
+		(property "Sheetname" "Barometer"
+			(at 231.14 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Barometer.kicad_sch"
+			(at 231.14 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 231.14 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "BAROMETR_I2C{I2C}" bidirectional
+			(at 231.14 109.22 180)
+			(uuid "7283b481-61ee-4a52-a70c-8c49147b755d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 80.01)
+		(size 33.02 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a5195239-5b2f-4937-ac37-7de03d71aef0")
+		(property "Sheetname" "IMU"
+			(at 231.14 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IMU.kicad_sch"
+			(at 231.14 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 231.14 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field3" ""
+			(at 231.14 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "IMU_I2C{I2C}" bidirectional
+			(at 231.14 91.44 180)
+			(uuid "4ad4b970-db41-43b9-bff2-3111d80b6809")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_EXT_NRESET" input
+			(at 231.14 83.82 180)
+			(uuid "96a991f9-65c9-493d-b84c-ab0ceea633e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_FSYNC" input
+			(at 231.14 86.36 180)
+			(uuid "464443b7-3cee-418a-8ffd-64de8c78e254")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_INT" input
+			(at 231.14 88.9 180)
+			(uuid "0aa9dd09-c4d3-49f5-9b0f-05f23626f7b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "13")
 				)
 			)
 		)
@@ -469,13 +823,123 @@
 			)
 		)
 		(pin "USB_MCU{USB}" input
-			(at 161.29 72.39 180)
+			(at 161.29 73.66 180)
 			(uuid "39375a4c-9c10-4301-9b74-766af280eb37")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "GPS_EXINTERUPT" output
+			(at 205.74 62.23 0)
+			(uuid "16816763-5a17-4bdd-8d38-ee7c6f95eaa6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_GEOFENCE_STAT" output
+			(at 205.74 64.77 0)
+			(uuid "813bdb3a-0f8a-4f98-848a-cc7170e45b10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_MODE_SELECT" input
+			(at 205.74 67.31 0)
+			(uuid "2e37066b-f9d7-40f9-bcfc-e55ef15e3d0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_NRESET" input
+			(at 205.74 69.85 0)
+			(uuid "43e3c2f9-f205-4131-8d1f-6a0a1c8bfcdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_RTK_STAT" output
+			(at 205.74 59.69 0)
+			(uuid "4410d40b-3a59-4d05-b6b7-037f19f80d95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_SPI{SPI}" bidirectional
+			(at 205.74 57.15 0)
+			(uuid "d367b714-295f-4408-bba0-0cd08741b5bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPS_UART{UART}" bidirectional
+			(at 205.74 54.61 0)
+			(uuid "4600bfb4-1cd0-4797-9a8c-bf92c86994c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C1{I2C}" bidirectional
+			(at 205.74 91.44 0)
+			(uuid "83ee65f4-6090-42f9-a093-f8d59af66335")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_EXT_NRESET" input
+			(at 205.74 83.82 0)
+			(uuid "67199904-a9b4-4c13-acfa-ab89ea929712")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_FSYNC" input
+			(at 205.74 86.36 0)
+			(uuid "cae7447e-2784-421a-8f05-01d91990bb4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_INT" input
+			(at 205.74 88.9 0)
+			(uuid "0264a323-4019-4f95-9419-a4a04af4db69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -487,8 +951,130 @@
 		)
 	)
 	(sheet
-		(at 123.19 64.77)
-		(size 25.4 15.24)
+		(at 231.14 49.53)
+		(size 33.02 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "beb6e6f0-cd62-4562-acf0-f68f29c583f0")
+		(property "Sheetname" "GPS-RTK"
+			(at 231.14 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPS-RTK.kicad_sch"
+			(at 231.14 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPS_EXINTERUPT" output
+			(at 231.14 62.23 180)
+			(uuid "47b8a5b4-cefe-4fdb-adad-ad6088edfaee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_GEOFENCE_STAT" output
+			(at 231.14 64.77 180)
+			(uuid "453424d6-883e-49ce-8c18-52c99153af8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_MODE_SELECT" input
+			(at 231.14 67.31 180)
+			(uuid "ff708bfe-5041-4041-ad84-9c6fd3b7c3cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_NRESET" input
+			(at 231.14 69.85 180)
+			(uuid "d352680d-9d81-425a-8f0d-ab30d1f7e88f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_RTK_STAT" output
+			(at 231.14 59.69 180)
+			(uuid "1081fe86-22b9-4552-bfb6-cc435fccce62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_SPI{SPI}" bidirectional
+			(at 231.14 57.15 180)
+			(uuid "edaac5c3-24fd-412c-9b42-569198ac7208")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_UART{UART}" bidirectional
+			(at 231.14 54.61 180)
+			(uuid "e3c40db0-84e8-4aef-8e7a-48475cb89036")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_GPS{USB}" bidirectional
+			(at 231.14 52.07 180)
+			(uuid "96c14d12-f0c1-43ad-ac35-8b25d5f478d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "base-module"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 63.5)
+		(size 25.4 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -503,7 +1089,7 @@
 		)
 		(uuid "c4e62f69-aed8-45c4-bc74-414bd9b2dcad")
 		(property "Sheetname" "USB-hub"
-			(at 123.19 64.0584 0)
+			(at 123.19 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,8 +1127,18 @@
 			)
 		)
 		(pin "USB_MCU{USB}" input
-			(at 148.59 72.39 0)
+			(at 148.59 73.66 0)
 			(uuid "0c956685-101a-4f07-b7bf-c720f0663eeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_GPS{USB}" input
+			(at 148.59 69.85 0)
+			(uuid "943589a8-7b0d-456d-bd22-ef7931620e42")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -757,7 +1353,7 @@
 			)
 		)
 		(pin "BACKPLANE{USB}" output
-			(at 106.68 49.53 0)
+			(at 106.68 48.26 0)
 			(uuid "de418b66-6533-4278-9c6e-995fea317169")
 			(effects
 				(font
