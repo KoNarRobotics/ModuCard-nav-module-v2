@@ -418,7 +418,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "ModuCard-navigation-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "6")
 				)
@@ -460,7 +460,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "ModuCard-navigation-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "3")
 				)
@@ -521,7 +521,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "ModuCard-navigation-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "5")
 				)
@@ -583,7 +583,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "ModuCard-navigation-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "8")
 				)
@@ -643,7 +643,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "ModuCard-navigation-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "14")
 				)
@@ -741,7 +741,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "ModuCard-navigation-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "13")
 				)
@@ -943,7 +943,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "ModuCard-navigation-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "4")
 				)
@@ -1065,7 +1065,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "ModuCard-navigation-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "11")
 				)
@@ -1147,7 +1147,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "ModuCard-navigation-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "9")
 				)
@@ -1199,7 +1199,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "ModuCard-navigation-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "10")
 				)
@@ -1261,7 +1261,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "ModuCard-navigation-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "7")
 				)
@@ -1363,7 +1363,7 @@
 			)
 		)
 		(instances
-			(project "base-module"
+			(project "ModuCard-navigation-module"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "2")
 				)
