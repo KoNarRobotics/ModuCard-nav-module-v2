@@ -8,4 +8,5 @@
   (lib (name "FSUSB42UMX")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-symbols/FSUSB42UMX.kicad_sym")(options "")(descr ""))
   (lib (name "CH334P")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-symbols/CH334P.kicad_sym")(options "")(descr ""))
   (lib (name "PESD5V0S2BT")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-symbols/PESD5V0S2BT.kicad_sym")(options "")(descr ""))
+  (lib (name "RT9013-18GB")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-symbols/RT9013-18GB.kicad_sym")(options "")(descr ""))
 )
